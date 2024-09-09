@@ -106,8 +106,8 @@ nav ul li:hover ul.tour-dropdown {
   grid-template-columns: repeat(3, 1fr);
  padding: 6rem 9%;
   position: relative;
-  color: #000;
-  background-color: #fff;
+  color: #FFF;
+  background-color: #000;
   justify-content: center;
   justify-content: space-around;
   
@@ -122,4 +122,19 @@ nav ul li:hover ul.tour-dropdown {
 .counter p{
     font-size: 20px;
     
+}
+.img11{
+    background-image: url(https://assets.newatlas.com/dims4/default/c038f16/2147483647/strip/true/crop/2600x1200+0+0/resize/2600x1200!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Ffe%2F87%2Fa4b63744439ca241cf28ec5091dd%2Fstarship-capabilities-interplanetarydestinations-mars-01-2023-01-desktop-darkerv2.jpg);
+    background-position: center;
+    height: 750px;
+    background-size: cover;
+}
+.img11 h1{
+    padding-top: 350px;
+    padding-bottom: 20px;
+    display: flex;
+    color: #fff;
+}
+.img11 p{
+    color: #fff;
 }
