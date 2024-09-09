@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Regular,Arial,Verdana,sans-serif;;
+    
+
+}
+.header{
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/11/Earth-From-Space-HD-Backgrounds.jpg);
+    background-position: center;
+    height: 900px;
+    background-size: cover;
+}
+.header p{
+    color: #fff;
+    padding-top: 290px;
+    padding-left: 300px;
+    font-size: 15px;
+}
+.counter-wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px ;
+}
