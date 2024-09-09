@@ -151,4 +151,21 @@ color: #fff;
 align-items: center;
 font-size: medium;
 margin-left: 190px;
+overflow: hidden;
+}
+.video{
+    position:absolute;
+    right: 0%;
+    left: 0%;
+    padding-top: 50px;
+    min-width: 100%;
+    min-height: 100%;
+    background-position: 0%;
+    position: relative;
+}
+.text{
+    color: #fff;
+   text-align: center;
+   margin-top: -500;
+   position: absolute;
 }
