@@ -205,12 +205,98 @@ nav ul li:hover ul.tour-dropdown {
     margin-top: 350px;
 
 }
+.slide-show1{
+    position: relative;
+    display: flex;
+}
+.slide-show1 h5{
+    position: absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 220px;
+}
 .slide-show1 h1{
     position: absolute;
-    color: #000;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 244px;
+    font-size: 45px; margin-top: 200px;
 }
 .slide-show1 p{
     position: absolute;
-    color: #000;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 360px;
+}
+.slide-show2{
+    position: relative;
+    display: flex;
 
+}
+.slide-show2 h5{
+    position: absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 220px;
+}
+.slide-show2 h1{
+    position: absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 260px;
+    font-size: 45px; margin-top: 200px;
+}
+.slide-show2 p{
+    position: absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 360px;
+}
+.slide-show3{
+    position: relative;
+    display: flex;
+
+}
+.slide-show3 h5{
+    position:absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 220px;
+}
+.slide-show3 h1{
+    position: absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 270px;
+    font-size: 45px; margin-top: 200px;
+}
+.slide-show3 p{
+    position: absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 360px;
+}
+.slide-show4{
+    position: relative;
+    display: flex;
+
+}
+.slide-show4 h5{
+    position:absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 220px;
+}
+.slide-show4 h1{
+    position: absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 270px;
+    font-size: 45px; margin-top: 200px;
+}
+.slide-show4 p{
+    position: absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 360px;
 }
