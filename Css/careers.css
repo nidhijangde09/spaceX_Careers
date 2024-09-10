@@ -1,9 +1,10 @@
 body{
     margin: 0%;
     padding: 0%;
+    background-color: #000;
     
 }
-.cover{background-image:url(https://cdn.mos.cms.futurecdn.net/R8hQvvEoMzAGXGSV5YuiBF-1200-80.jpg);
+.cover{background-image:url(https://www.spacex.com/static/images/backgrounds-new/SpaceX_Careers_BG.png);
 height: 750px;
 background-size: cover;
 background-position: center;
@@ -204,4 +205,50 @@ overflow: hidden;
     position:relative;
     overflow-x: hidden;
 }
-
+#heading2{
+    text-align: center;
+    color: #fff;
+    margin-top: 350px;
+    background-color: #000;
+    font-size: xx-large;
+    
+}
+#text2{
+    text-align: center;
+    color:#fff;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    font-size: 15px;
+    display: inline-flex;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 70px; 
+    height: 30px; 
+    align-items: center;
+    margin-left: 650px;
+    margin-bottom: 100px;
+}
+.button a:hover{
+    background:#fff;
+    box-shadow: #ffffff;
+    color: #000;   
+}
+.video2{
+    position:absolute;
+    right: 10;
+    left: 0%;
+    background-size: cover;
+    z-index: -1;
+    min-width: 100%;
+   height: 100vh;
+    background-position: 0%
+}
+.image3{
+height: 100px;
+width: 100px;
+}
