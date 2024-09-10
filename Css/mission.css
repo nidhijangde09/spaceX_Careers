@@ -180,6 +180,9 @@ nav ul li:hover ul.tour-dropdown {
     margin-left: 1400px;
     
 }
+.frame{
+    overflow: hidden;
+}
 .img{
     height: 730px;
     width:1520px;
@@ -187,6 +190,7 @@ nav ul li:hover ul.tour-dropdown {
     margin: 0px;
     padding: 0;
     float: right;
+    object-fit: cover;
 }
 .slider{
     display: flex;
@@ -218,9 +222,10 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show1 h1{
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
-    margin-top: 244px;
-    font-size: 45px; margin-top: 200px;
+    padding: 35px;
+    margin-left: 35px;
+    font-size: 45px; 
+    margin-top: 200px;
 }
 .slide-show1 p{
     position: absolute;
@@ -242,6 +247,7 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show2 h1{
     position: absolute;
     color: #FFF;
+    padding: 35px;
     margin-left: 70px;
     margin-top: 260px;
     font-size: 45px; margin-top: 200px;
@@ -266,6 +272,7 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show3 h1{
     position: absolute;
     color: #FFF;
+    padding: 35px;
     margin-left: 70px;
     margin-top: 270px;
     font-size: 45px; margin-top: 200px;
@@ -291,6 +298,7 @@ nav ul li:hover ul.tour-dropdown {
     position: absolute;
     color: #FFF;
     margin-left: 70px;
+    padding: 35px;
     margin-top: 270px;
     font-size: 45px; margin-top: 200px;
 }
@@ -300,3 +308,125 @@ nav ul li:hover ul.tour-dropdown {
     margin-left: 70px;
     margin-top: 360px;
 }
+.slide-show5{
+    position: relative;
+    display: flex;
+
+}
+.slide-show5 h5{
+    position:absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 220px;
+}
+.slide-show5 h1{
+    position: absolute;
+    color: #FFF;
+    padding: 35px;
+    margin-left: 70px;
+    margin-top: 270px;
+    font-size: 45px; margin-top: 200px;
+}
+.slide-show5 p{
+    position: absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 360px;
+}
+.slide-show6{
+    position: relative;
+    display: flex;
+
+}
+.slide-show6 h5{
+    position:absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 220px;
+}
+.slide-show6 h1{
+    position: absolute;
+    color: #FFF;
+    padding: 35px;
+    margin-left: 70px;
+    margin-top: 270px;
+    font-size: 45px; margin-top: 200px;
+}
+.slide-show6 p{
+    position: absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 360px;
+}
+.slide-show7{
+    position: relative;
+    display: flex;
+
+}
+.slide-show7 h5{
+    position:absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 220px;
+}
+.slide-show7 h1{
+    position: absolute;
+    color: #FFF;
+    padding: 35px;
+    margin-left: 70px;
+    margin-top: 270px;
+    font-size: 45px; margin-top: 200px;
+}
+.slide-show7 p{
+    position: absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 360px;
+}
+.slide-show8{
+    position: relative;
+    display: flex;
+
+}
+.slide-show8 h5{
+    position:absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 220px;
+}
+.slide-show8 h1{
+    position: absolute;
+    color: #FFF;
+    padding: 25px;
+    margin-left: 70px;
+    margin-top: 270px;
+    font-size: 45px; margin-top: 200px;
+}
+.slide-show8 p{
+    position: absolute;
+    color: #FFF;
+    margin-left: 70px;
+    margin-top: 380px;
+}
+.text-container{
+    background-color: #000;
+}
+.video{
+    height: 750px;
+    width: 900px;
+    margin-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.text-container h1{
+   float: right;
+   color: #fff;
+   padding: 5px;
+   padding-right: 300px;
+   padding-top: 280px;
+}
+.text-container p{
+   color: #fff;
+
+ }
+ 
