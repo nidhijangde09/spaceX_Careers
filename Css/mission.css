@@ -162,27 +162,55 @@ nav ul li:hover ul.tour-dropdown {
     align-items: center;
     gap:50px;
     background-color: #000;
+    padding-top: 0;
 
 }
 .arrow{
    height: 19px;
    cursor: pointer; 
    display: flex;
-   position: relative;
-   margin-top: 900px;
+   position: absolute;
+   margin-top: 300px;
+}
+.left{
+    margin-right: 30px;
 }
 .right{
     transform: rotate(180deg);
-}
-.frame{
-    width:1000px;
-    height: 500px;
+    margin-left: 1400px;
+    
 }
 .img{
-    height: 750px;
-    width: 2100px;
+    height: 730px;
+    width:1520px;
     background-size: cover;
+    margin: 0px;
+    padding: 0;
+    float: right;
 }
 .slider{
     display: flex;
+}
+.slide-show h1{
+    position: absolute;
+    color: #fff;
+    margin-left: 90px;
+    margin-top: 250px;
+    padding: 50px;
+}
+.slide-show p{
+    position: absolute;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 350px;
+
+}
+.slide-show1 h1{
+    position: absolute;
+    color: #000;
+}
+.slide-show1 p{
+    position: absolute;
+    color: #000;
+
 }
