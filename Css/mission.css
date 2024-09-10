@@ -1,14 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Regular,Arial,Verdana,sans-serif;;
+    font-family: Regular,Arial,Verdana,sans-serif;
+
     
 
 }
 .header{
     background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/11/Earth-From-Space-HD-Backgrounds.jpg);
     background-position: center;
-    height: 900px;
+    height: 750px;
     background-size: cover;
 }
 nav {
@@ -134,7 +135,54 @@ nav ul li:hover ul.tour-dropdown {
     padding-bottom: 20px;
     display: flex;
     color: #fff;
+    padding-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .img11 p{
     color: #fff;
+    padding-left: 80px;
+    padding-bottom: 50px;
+    font-family: D-DIN-Regular;
+}
+.img11 a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    font-size: 15px;
+    display: inline-flex;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    margin-top: 15px;
+    font-family: Arial, sans-serif;
+    margin-left: 70px;
+   
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    gap:50px;
+    background-color: #000;
+
+}
+.arrow{
+   height: 19px;
+   cursor: pointer; 
+   display: flex;
+   position: relative;
+   margin-top: 900px;
+}
+.right{
+    transform: rotate(180deg);
+}
+.frame{
+    width:1000px;
+    height: 500px;
+}
+.img{
+    height: 750px;
+    width: 2100px;
+    background-size: cover;
+}
+.slider{
+    display: flex;
 }
