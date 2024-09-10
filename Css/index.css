@@ -156,7 +156,7 @@ nav ul li:hover ul.tour-dropdown {
 .footer-mail-form{
     float: right;
     margin-right: 150px;
-    margin-top: -100px;
+    margin-top: -150px;
 }
 
 .label{
@@ -178,4 +178,70 @@ nav ul li:hover ul.tour-dropdown {
     padding-top: 17px;
     padding-bottom: 14px;
     margin-left: -5px; 
+}
+
+.footer-logo{
+ margin-left: 120px;
+
+}
+
+.footer-heading{
+    font-size: 20px;
+    color: #ffffff;
+    font-family:"Prompt", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    
+}
+.footer-content{
+    float: right;
+    margin-right: 650px;
+    padding: 0px 50px;
+    margin-top: -50px;
+  
+}
+.footer-text{
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+.footer-content-1{
+    float: right; 
+    margin-right: -350px;
+    padding-left: 50px;
+    margin-top: -50px;
+   
+}
+.footer-heading-1{
+    font-size: 20px;
+    color: #ffffff;
+    font-family:"Prompt", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+.footer-text-1{
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+.footer-id-container{
+    margin-top: 160px; 
+}
+.footer-id{
+color: #ffffff;
+margin-left: 90px;
+font-size: 20px;
+}
+.footer-icon{
+    width: 30px;
+}
+.footer-icon-container{
+    position: relative;
+    float: right;
+    margin-top:-50px ;
+    margin-right: 640px;
+}
+.footer-content2{
+    color: #ffffff;
+    float: right;
+    margin-top: -70px;
+    margin-right: 50px;
 }
