@@ -410,26 +410,32 @@ nav ul li:hover ul.tour-dropdown {
 }
 .text-container{
     background-color: #000;
+    display: flex;
+    height: 900px;
+    width: 1500px;
+   
+  
 }
 .video{
     height: 750px;
     width: 900px;
     margin-left: 30px;
     margin-top: 80px;
-    margin-bottom: 30px;
+  
 }
-.text-container h6{
-   float: right;
-   color: #fff;
-   padding: 5px;
-   padding-right: 300px;
-   display:inline-flex;
-   position: relative;
+.text-container h2{
+    color: #fff;
+    margin-top: 250px;
+    float: right;
+ 
+  }
+ .text-container p{
+    color: #fff;
+    margin-top: 300px;
+    margin-left: px;
+    
+ 
 }
-.text-container p{
-   color: #fff;
-
- }
  .new-container{
     background-color: #000;
     color: #fff;
@@ -612,4 +618,6 @@ nav ul li:hover ul.tour-dropdown {
 .a3:hover{
     color: gray;
 }
+
+
 
