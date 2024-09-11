@@ -490,7 +490,7 @@ nav ul li:hover ul.tour-dropdown {
 .card1{
     color: #fff;
     background-color: #000;
-    height: 600px;
+    height: 650px;
     width: 600px;
     margin-left: 120px;
     float: left;
@@ -507,10 +507,10 @@ nav ul li:hover ul.tour-dropdown {
 .card2{
     color:#fff;
     background-color: #000;
-    height: 600px;
+    height: 650px;
     width: 600px;
     margin-right: 120px;
-    margin-left: 90px;
+    margin-left: 10px;
     float: right;
 
 }
@@ -529,5 +529,87 @@ nav ul li:hover ul.tour-dropdown {
 .pic2{
     height: 350px;
     width:600px;
+}
+.info{
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.info h5{
+    color: gray;
+}
+.info input{
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin: 15px;
+    color: grey;
+    background-color: #000;
+}
+.info button{
+    height: 45px;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+}
+.info button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.para{
+    background-color: #000;
+
+}
+.para p{
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+    
+    padding-bottom: 20px;
+}
+.para b{
+    color: #fff;
+}
+.line{
+    background-color: #000;
+    
+}
+.line-img{
+    margin-left: 700px;
+    margin-top: 110px;
+}
+.names{
+    background-color: #000;
+    height: 150px;
+    display: flex;
+    text-align: center;
+}
+.names a{
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 300px;
+   
+}
+.a1{
+    color: gray;
+}
+.a2{
+    color: #fff;
+}
+.a2:hover{
+    color: gray;
+}
+.a3{
+    color: #fff;
+}
+.a3:hover{
+    color: gray;
 }
 
