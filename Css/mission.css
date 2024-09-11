@@ -468,65 +468,66 @@ nav ul li:hover ul.tour-dropdown {
 }
 .new-container2 {
     background-color: #000;
+    position: relative;
+}
+.small-heading{
+   background-color: #000;
+}
+.small-heading h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 80px;
 }
 .cards{
     background-color: #000;
-    height: 1000px;
-    padding-top: 110px;
-  
-}
-.cards h1{
-    color: #fff;
-    text-align: center;
+    color: #FFF;
+
 }
 .flexbox{
-   display: inline;
-    padding-top: 70px;
+    display: flex;
 }
 .card1{
-    background-color: #FFF;
-    height: 500px;
-    width: 1000px;
-    padding: 50px;
-    display: flex;
+    color: #fff;
+    background-color: #000;
+    height: 600px;
+    width: 600px;
+    margin-left: 120px;
+    float: left;
+    margin-right: 90px;
+}
+.card1 h4{
+    margin-top: 25px;
+    padding-bottom: 7px;
+
+}
+.card1 h2{
+    margin-bottom: 25px;
+}
+.card2{
+    color:#fff;
+    background-color: #000;
+    height: 600px;
+    width: 600px;
+    margin-right: 120px;
+    margin-left: 90px;
+    float: right;
+
+}
+.card2 h4{
+    margin-top: 25px;
+    padding-bottom: 7px;
+
+}
+.card2 h2{
+    margin-bottom: 25px;
+}
+.pic1{
+    height: 350px;
+    width:600px;
+}
+.pic2{
+    height: 350px;
+    width:600px;
 }
 
-.card2{
-    background-color: #FFF;
-    height: 500px;
-    width: 1000px;
-    padding: 50px;
-}
-.card3{
-    background-color: #FFF;
-    height: 500px;
-    width: 1000px;
-    padding: 50px;
-}
-.card4{
-    background-color: #FFF;
-    height: 500px;
-    width: 1000px;
-    padding: 50px;
-}
-.card5{
-    background-color: #FFF;
-    height: 500px;
-    width: 1000px;
-    padding: 50px;
-}
-.card6{
-    background-color: #FFF;
-    height: 500px;
-    width: 1000px;
-    padding: 50px;
-}
-.box1{
-    display: flex;
-}
-.box2{
-    display: flex;
-}
-.box3{
-    display: flex;
-}
