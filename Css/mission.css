@@ -418,15 +418,115 @@ nav ul li:hover ul.tour-dropdown {
     margin-top: 80px;
     margin-bottom: 30px;
 }
-.text-container h1{
+.text-container h6{
    float: right;
    color: #fff;
    padding: 5px;
    padding-right: 300px;
-   padding-top: 280px;
+   display:inline-flex;
+   position: relative;
 }
 .text-container p{
    color: #fff;
 
  }
- 
+ .new-container{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    height: 250px;
+    padding-top: 90px;
+ }
+ .new-container h1{
+    padding-top: 110px;
+    padding: 15px;
+    
+ }
+ .new-container p{
+    padding-bottom: 70px;
+ }
+ .new-container button a{
+    text-decoration: none;
+    background-color: #000;
+    padding-top: 20px;
+    padding: 30px;
+    color: #fff;
+    margin-top: 200px;
+    font-size: 15px;
+ }
+ .new-container button a:hover {
+    color: gray;
+    cursor: pointer;  
+}
+.img01 {
+    display: flex;
+    text-align: center;
+    height: 600px;
+    width: 900px;
+    color: #000;
+    margin-left: 300px;
+}
+.new-container2 {
+    background-color: #000;
+}
+.cards{
+    background-color: #000;
+    height: 1000px;
+    padding-top: 110px;
+  
+}
+.cards h1{
+    color: #fff;
+    text-align: center;
+}
+.flexbox{
+   display: inline;
+    padding-top: 70px;
+}
+.card1{
+    background-color: #FFF;
+    height: 500px;
+    width: 1000px;
+    padding: 50px;
+    display: flex;
+}
+
+.card2{
+    background-color: #FFF;
+    height: 500px;
+    width: 1000px;
+    padding: 50px;
+}
+.card3{
+    background-color: #FFF;
+    height: 500px;
+    width: 1000px;
+    padding: 50px;
+}
+.card4{
+    background-color: #FFF;
+    height: 500px;
+    width: 1000px;
+    padding: 50px;
+}
+.card5{
+    background-color: #FFF;
+    height: 500px;
+    width: 1000px;
+    padding: 50px;
+}
+.card6{
+    background-color: #FFF;
+    height: 500px;
+    width: 1000px;
+    padding: 50px;
+}
+.box1{
+    display: flex;
+}
+.box2{
+    display: flex;
+}
+.box3{
+    display: flex;
+}
