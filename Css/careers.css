@@ -122,7 +122,6 @@ padding-top: 100px;
     display: flex;
     padding-left: 200px;
 }
-
 .form-container{
     margin-left:500px;
     margin-right:500px;
@@ -131,7 +130,7 @@ input::placeholder{
     color: #fff;
     font-size:large;
 }
-#button{
+#button0{
 background-color: #ffffff00;
 padding:26px  310px;
 justify-content:center;
@@ -142,6 +141,12 @@ padding-left: 200px;
 border-color: #fff;
 color: #fff;
 }
+#button0:hover{
+    background:#fff;
+    box-shadow: #ffffff;
+    color: #000; 
+}
+
 #nobutton{
 background-color: #ffffff00;
 border-color: rgba(250, 235, 215, 0);
@@ -149,6 +154,7 @@ color: #fff;
 align-items: center;
 font-size: medium;
 margin-left: 45px;
+padding-top: 20px;
 }
 #onbutton{
 background-color: #ffffff00;
@@ -158,6 +164,7 @@ align-items: center;
 font-size: medium;
 margin-left: 190px;
 overflow: hidden;
+padding-top: 20px;
 }
 .video{
     position:absolute;
@@ -248,7 +255,54 @@ overflow: hidden;
    height: 100vh;
     background-position: 0%
 }
-.image3{
-height: 100px;
-width: 100px;
+.cover2{background-image:url(C:\Users\bhavn\spaceX_careers\Images\img-3.jpeg);
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+}
+.picture{
+    height: 700px;
+    width: 1520px;
+    margin-top: 710px;
+  
+}
+.new{
+    display: flex;
+}
+.line{
+    color: #fff;
+    text-align: center;
+ font-size: large;
+}
+.em{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#line2{
+    align-items: center;
+    margin-left: 720px;
+    height: 30px;
+    
+}
+.buttons a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    font-size: 15px;
+    display: inline-flex;
+    border: 2px solid #fff;
+    padding: 13px 30px;
+    margin-top: 70px;
+    font-family: Arial, sans-serif;
+    margin-left: 70px; 
+    height: 30px; 
+    align-items: center;
+    margin-left: 685px;
+    margin-bottom: 100px;
+}
+.buttons a:hover{
+    background:#fff;
+    box-shadow: #ffffff;
+    color: #000; 
 }
