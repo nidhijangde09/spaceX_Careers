@@ -50,7 +50,7 @@
             <a href="#">LEARN MORE ABOUT STARSHIP</a>
         </div>
        <div class="img-container">
-            <img src="C:\Users\shary\OneDrive\Desktop\spaceX_careers\left-arrow.png" class="arrow left">
+            <img src="../Images/angle-small-right.png" class="arrow left">
             <div class="frame">
               <div class="slider">
                 <div class="slide-show">
@@ -59,7 +59,7 @@
                 <p>SpaceX has gained worldwide attention for a series of historic<br> milestones. It is the only private company capable of returning a<br> spacecraft from low-Earth orbit, and in 2012 our Dragon spacecraft<br> became the first commercial spacecraft to deliver cargo to and<br> from the International Space Station. And in 2020, SpaceX became <br>the first private company to take humans there as well. Click <br>through the timeline above to see some of our milestone<br>accomplishments.</p>
               </div>
                <div class="slide-show1">
-                <img src="../img18.jpg"alt="img1" class="img">
+                <img src="../Images/img18.jpg"alt="img1" class="img">
                 <h5>SEPTEMBER 2008</h5>
                 <h1>FALCON 1 MAKES <br>HISTORY</h1>
                 <p>Falcon 1 becomes the first privately developed liquid fuel rocket to<br> reach Earth orbit.</p>
@@ -110,7 +110,7 @@
                 </div>
               </div>
               </div>
-            <img src="C:\Users\shary\OneDrive\Desktop\spaceX_careers\left-arrow.png" class="arrow right">
+            <img src="../Images/angle-small-right.png" class="arrow right">
 
 
         </div>
@@ -222,48 +222,7 @@
   <a  class="a2 " href="#">PRIVACY POLICY</a>
   <a class="a3" href="#">SUPPLIERS</a>
 </div>
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
 
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-  <span class="dot" onclick="currentSlide(4)"></span> 
-  
-  
-</div>
-<script>
-    let slideIndex = 1;
-    showSlides(slideIndex);
-    
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-    
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-    
-    function showSlides(n) {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      let dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}    
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " active";
-    }
-    </script>
    
 </body>
 </html>
