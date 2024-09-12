@@ -68,8 +68,6 @@ nav {
     z-index: 10;
     height: 65px;
     margin-top: -50px;
-    
-   
 }
 
 nav .fa-solid {
@@ -87,9 +85,7 @@ nav .fa-solid {
 }
 #sideMenu{
   margin-right: 100px;
-  margin-top: 10px;
-
-    
+  margin-top: 10px; 
 }
 nav ul li {
     display: inline-block;
@@ -182,21 +178,18 @@ nav ul li:hover ul.tour-dropdown {
 
 .footer-logo{
  margin-left: 120px;
-
 }
 
 .footer-heading{
     font-size: 20px;
     color: #ffffff;
-    font-family:"Prompt", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    
+    font-family:"Prompt", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
 }
 .footer-content{
     float: right;
     margin-right: 650px;
     padding: 0px 50px;
-    margin-top: -50px;
-  
+    margin-top: -50px; 
 }
 .footer-text{
     font-size: 15px;
@@ -208,8 +201,7 @@ nav ul li:hover ul.tour-dropdown {
     float: right; 
     margin-right: -350px;
     padding-left: 50px;
-    margin-top: -50px;
-   
+    margin-top: -50px; 
 }
 .footer-heading-1{
     font-size: 20px;
