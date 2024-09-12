@@ -1,0 +1,98 @@
+@import url("https://fonts.google.com/specimen/Archivo+Black");
+
+
+
+
+.header-img-container {
+    position: relative;
+}
+
+.header-img {
+    height: 90vh;
+    width: 100%;
+    margin-top: -90;
+}
+
+.header-img-text {
+    font-family: "Archivo", sans-serif;
+    font-size: 52px;
+    font-weight: bolder;
+    position: relative;
+    color: #fff;
+    margin-top: -490px;
+    text-align: center;
+}
+
+.header-img-text-content {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -25px;
+}
+
+.card-container {
+    margin-top: 350px;
+    display: flex;
+}
+
+
+.card1-img {
+    width: 400px;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+.card1-img:hover{
+    transform: translateY(-10px);
+}
+
+
+.card2-img {
+    width: 400px;
+    height: 93vh;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+.card2-img:hover{
+    transform: translateY(-10px);
+}
+
+
+.card3-img {
+    width: 400px;
+    height: 94vh;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+.card3-img:hover{
+    transform: translateY(-10px);
+}
+
+
+.txt-1 {
+    font-family: "Archivo", sans-serif;
+    margin-top: -590px;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 50px;
+    color: #fff;
+    position: sticky;
+}
+
+.txt-2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    margin-top: -20px;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 25px;
+    color: #fff;
+    transition: 0.5s;
+    position: sticky;
+}
+.txt-2:hover{
+    transform: translateY(-5px);
+}
+
