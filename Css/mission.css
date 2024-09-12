@@ -166,17 +166,18 @@ nav ul li:hover ul.tour-dropdown {
 
 }
 .arrow{
-   height: 19px;
+   height: 40px;
    cursor: pointer; 
    display: flex;
    position: absolute;
-   margin-top: 300px;
+   margin-top: 290px;
 }
 .left{
-    margin-right: 30px;
+    padding-right: 80px;
+    transform: rotate(180deg);
 }
 .right{
-    transform: rotate(180deg);
+   
     margin-left: 1400px;
     
 }
