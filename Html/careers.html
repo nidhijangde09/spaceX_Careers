@@ -1,132 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Careers</title>
-    <link rel="stylesheet" href="../Css/careers.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Careers</title>
+  <link rel="stylesheet" href="../Css/careers.css" />
 </head>
+
 <body>
-    <nav>
-        <div class="brand-name">
-          <img src="../images/logo.png">
-        </div>
-        <ul id="sideMenu">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./Html/mission.html">Mission</a></li>
-          <li><a href="./Html/launches.html">launches</a></li>
-          <li><a href="./Html/careers.html">Careers</a></li>
-          <li><a href="./Html/updates.html">Updates</a></li>
-          <li><a href="./Html/about.html">About</a></li>
-          <li><a href="./Html/login.html">login/Register</a></li>
-          <li><a href="./Html/starlink.html">Starlink</a></li>
-          <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
-        </ul>
-        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
-      </nav>
-      <div class="cover">
+  <nav>
+    <div class="brand-name">
+      <img src="../images/logo.png">
+    </div>
+    <ul id="sideMenu">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./Html/mission.html">Mission</a></li>
+      <li><a href="./Html/launches.html">launches</a></li>
+      <li><a href="./Html/careers.html">Careers</a></li>
+      <li><a href="./Html/updates.html">Updates</a></li>
+      <li><a href="./Html/about.html">About</a></li>
+      <li><a href="./Html/login.html">login/Register</a></li>
+      <li><a href="./Html/starlink.html">Starlink</a></li>
+      <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+  </nav>
+  <div class="cover">
     <h1 id="heading">FIND YOUR FUTURE</h1></br>
 
-    <p id="line">SpaceX is looking for world-class talent ready to tackle challenging projects that will ultimately enable life on other planets</br>
-         We are an equal opportunity employer offering competitive salaries, comprehensive health benefits and equity packages.</p>
-        <form>
-            <div class="form-container">
-            <input type="text" placeholder="KEYWORDS" required id="option" /></br>
+    <p id="line">SpaceX is looking for world-class talent ready to tackle challenging projects that will ultimately
+      enable life on other planets</br>
+      We are an equal opportunity employer offering competitive salaries, comprehensive health benefits and equity
+      packages.</p>
+    <form>
+      <div class="form-container">
+        <input type="text" placeholder="KEYWORDS" required id="option" /></br>
 
-            <input list="techOptions" id="option" placeholder="Any"/>
+        <input list="techOptions" id="option" placeholder="Any" />
 
-      <datalist id="techOptions" >
-        <option>Any:</option>
-        <option>Corporate</option>
-        <option>Pragon</option>
-        <option>Falcon</option>
-        <option>Starlink</option>
-        <option>Starshild</option>
-        <option>Starship</option>
-      </datalist></br>
-     
- <input list="Options" id="option" placeholder="Legal"/>
+        <datalist id="techOptions">
+          <option>Any:</option>
+          <option>Corporate</option>
+          <option>Pragon</option>
+          <option>Falcon</option>
+          <option>Starlink</option>
+          <option>Starshild</option>
+          <option>Starship</option>
+        </datalist></br>
 
- <datalist id="Options">
-   <option>College and University-Intership and co-Ops:</option>
-   <option>Customer Support</option>
-   <option>Engineering-Aerospace & Mechanical</option>
-   <option>Engineering-Chemical  & Materials</option>
-   <option>Engineering-Civil</option>
-   <option>Engineering-Electrical</option>
-   <option>Engineering-Industrial & Operations</option>
-   <option>Engineering-Security</option>
-   <option>Engineering-Silicon</option>
-   <option>Engineering-Software & Analytics</option>
-   <option>Environmental Health & Safety</option>
-   <option>Facilities & Food Services</option>
-   <option>Finance & Accounting</option>
-   <option>Government Affairs</option>
-   <option>Human Resources</option>
-   <option>Information Technologies</option>
-   <option>Legal</option>
-   <option>Marketing & Communications</option>
-   <option>Network Engineering & Operations</option>
-   <option>NonDestructive Evaluation</option>
-   <option>Physical Security</option>
-   <option>Production</option>
-   <option>Sales & Business Operations</option>
-     </datalist></br>
+        <input list="Options" id="option" placeholder="Legal" />
 
-<button id="button0"><b>Search</b></button>
-<button id="nobutton">View all Opeanings</button>
-<button id="onbutton">View Interships</button>
-</div>
-     </form>
+        <datalist id="Options">
+          <option>College and University-Intership and co-Ops:</option>
+          <option>Customer Support</option>
+          <option>Engineering-Aerospace & Mechanical</option>
+          <option>Engineering-Chemical & Materials</option>
+          <option>Engineering-Civil</option>
+          <option>Engineering-Electrical</option>
+          <option>Engineering-Industrial & Operations</option>
+          <option>Engineering-Security</option>
+          <option>Engineering-Silicon</option>
+          <option>Engineering-Software & Analytics</option>
+          <option>Environmental Health & Safety</option>
+          <option>Facilities & Food Services</option>
+          <option>Finance & Accounting</option>
+          <option>Government Affairs</option>
+          <option>Human Resources</option>
+          <option>Information Technologies</option>
+          <option>Legal</option>
+          <option>Marketing & Communications</option>
+          <option>Network Engineering & Operations</option>
+          <option>NonDestructive Evaluation</option>
+          <option>Physical Security</option>
+          <option>Production</option>
+          <option>Sales & Business Operations</option>
+        </datalist></br>
+
+        <button id="button0"><b>Search</b></button>
+        <button id="nobutton">View all Opeanings</button>
+        <button id="onbutton">View Interships</button>
       </div>
-     <div>
-        <video class="video"
-        autoplay muted place-inline loop >
-            <source src="c:\Users\bhavn\OneDrive\Desktop\video.mp4" type="video/mp4">
-          </video>     
-        <h1 id="headingtext" ><b>MAKE AN IMPACT</h1></b>
-        <p id="text" >On a daily basis, SpaceX employees work on programs and</br>
-                      projects with the potential to notably impact our lives on Earth and</br>
-                      beyond the stars. From rocket reusability to global broadband</br>
-                      networks to developing interplanetary transportation systems, our </br>
-                      employees take pride in solving hard problems that can have</br>
-                      tangible impacts on our future in space.
-        </p>
-     </div>
-     <div class="head-container">
-     <h1 id="heading2"><b>LIFE AT SPACEX</b></h1>
+    </form>
+  </div>
+  <div>
+    <video class="video" autoplay muted place-inline loop>
+      <source src="c:\Users\bhavn\OneDrive\Desktop\video.mp4" type="video/mp4">
+    </video>
+    <h1 id="headingtext"><b>MAKE AN IMPACT</h1></b>
+    <p id="text">On a daily basis, SpaceX employees work on programs and</br>
+      projects with the potential to notably impact our lives on Earth and</br>
+      beyond the stars. From rocket reusability to global broadband</br>
+      networks to developing interplanetary transportation systems, our </br>
+      employees take pride in solving hard problems that can have</br>
+      tangible impacts on our future in space.
+    </p>
+  </div>
+  <div class="head-container">
+    <h1 id="heading2"><b>LIFE AT SPACEX</b></h1>
 
-     <p id="text2">At SpaceX, we are actively developing technologies with the potential to change the</br>
-       course of life on Earth and beyond. We believe that hard work and innovative solutions</br>
-        result in big gains, so we prioritize hiring top talent and cultivating a culture based on</br>
-         merit. From building our interplanetary transport system to working with astronauts </br>
-         and deploying our Starlink broadband internet system, all SpaceX employees directly</br>
-          contribute to making our mission of making humanity multiplanetary a reality.</br>
-     </p>
-     <div>
+    <p id="text2">At SpaceX, we are actively developing technologies with the potential to change the</br>
+      course of life on Earth and beyond. We believe that hard work and innovative solutions</br>
+      result in big gains, so we prioritize hiring top talent and cultivating a culture based on</br>
+      merit. From building our interplanetary transport system to working with astronauts </br>
+      and deploying our Starlink broadband internet system, all SpaceX employees directly</br>
+      contribute to making our mission of making humanity multiplanetary a reality.</br>
+    </p>
+    <div>
 
-     </div>
-     <div class="button" >
-     <a href="#">LEARN MORE</a>
-     <div class="video2">
-     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/4BXnE9yxFFY?si=YsMvMDqkjeFk9g5f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></br></div>
     </div>
-     </div>
-    <div clss="new">
-      <img src="https://images.firstpost.com/wp-content/uploads/2019/09/Starship-illustration_SpaceX.jpg?im=FitAndFill=(596,336)" class="picture"></br>
+    <div class="button">
+      <a href="#">LEARN MORE</a>
+      <div class="video2">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/4BXnE9yxFFY?si=YsMvMDqkjeFk9g5f"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></br>
+      </div>
     </div>
-    <div class="black">
-    <p class="line">SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than</br> one where we are not.</p></br>
+  </div>
+  <div clss="new">
+    <img
+      src="https://images.firstpost.com/wp-content/uploads/2019/09/Starship-illustration_SpaceX.jpg?im=FitAndFill=(596,336)"
+      class="picture"></br>
+  </div>
+  <div class="black">
+    <p class="line">SpaceX was founded under the belief that a future where humanity is out exploring the stars is
+      fundamentally more exciting than</br> one where we are not.</p></br>
 
     <p class="em"><b>-Elon Musk</b></p>
-<div id="line2">
-  <img  src="C:\Users\bhavn\spaceX_careers\Images\line1.png">
-</div>
-<div class="buttons">
-  <a href="#"o><b>Find Your Future</b></a>
-</div>
+    <div id="line2">
+      <img src="C:\Users\bhavn\spaceX_careers\Images\line1.png">
+    </div>
+    <div class="buttons">
+      <a href="#" o><b>Find Your Future</b></a>
+    </div>
 
 
   </div>
 </body>
+
 </html>
