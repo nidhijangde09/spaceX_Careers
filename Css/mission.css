@@ -9,7 +9,8 @@
 .header{
     background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/11/Earth-From-Space-HD-Backgrounds.jpg);
     background-position: center;
-    height: 750px;
+    height: 100vh;
+    width: 100%;
     background-size: cover;
 }
 nav {
@@ -127,7 +128,8 @@ nav ul li:hover ul.tour-dropdown {
 .img11{
     background-image: url(https://assets.newatlas.com/dims4/default/c038f16/2147483647/strip/true/crop/2600x1200+0+0/resize/2600x1200!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Ffe%2F87%2Fa4b63744439ca241cf28ec5091dd%2Fstarship-capabilities-interplanetarydestinations-mars-01-2023-01-desktop-darkerv2.jpg);
     background-position: center;
-    height: 750px;
+    height: 100vh;
+    width:100%;
     background-size: cover;
 }
 .img11 h1{
@@ -185,8 +187,7 @@ nav ul li:hover ul.tour-dropdown {
    overflow: hidden;
 }
 .img{
-   
-    width:1550px;
+   width:1550px;
     background-size: cover;
     float: right;
    height: 100vh;
@@ -492,6 +493,7 @@ nav ul li:hover ul.tour-dropdown {
 }
 .flexbox{
     display: flex;
+    
 }
 .card1{
     color: #fff;
