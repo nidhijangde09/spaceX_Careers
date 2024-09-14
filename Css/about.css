@@ -107,5 +107,35 @@ nav ul li:hover ul.tour-dropdown {
     margin-left: 250px;
     margin-top: 60px;
     float: right;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
+}
+.outer-container{
+    background-color: #000;
+    width: 100%;
+    height: 200vh;
+    color: #fff;
+}
+.inner-container{
+    background-color: rgb(32, 30, 30);
+    height: 200vh;
+    width: 1320px;
+    margin-left: 90px;
+    padding: 10px;
+    display: flex;
+
+}
+.inner-container h1{
+    padding-top:50px;
+    padding-left: 60px;
+}
+.profile-container{
+    display: flex;
+  
+
+}
+.profile-card-container1{
+    width:100px;
+    height:100px;
+    color: #fff;
+    background-color: rgb(37, 34, 34);
 }
