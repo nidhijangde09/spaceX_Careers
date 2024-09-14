@@ -1,19 +1,19 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    font-family: Regular, Arial, Verdana, sans-serif;
+    font-family: Regular,Arial,Verdana,sans-serif;
 
 
+    
 
 }
-
-.header {
+.header{
     background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/11/Earth-From-Space-HD-Backgrounds.jpg);
+    background-position: center;
     height: 100vh;
     width: 100%;
-
+    background-size: cover;
 }
-
 nav {
     position: absolute;
     display: flex;
@@ -24,13 +24,12 @@ nav {
     z-index: 10;
     height: 65px;
     top: 8px;
-
+   
 }
 
 nav .fa-solid {
     display: none;
 }
-
 .fa-solid {
     color: #000;
 }
@@ -40,14 +39,12 @@ nav .fa-solid {
     font-weight: bold;
     cursor: pointer;
 }
+#sideMenu{
+  margin-right: 290px;
+  margin-top: 30px;
 
-#sideMenu {
-    margin-right: 290px;
-    margin-top: 30px;
-
-
+    
 }
-
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -77,7 +74,6 @@ nav ul li a::after {
 nav ul li a:hover::after {
     width: 100%;
 }
-
 .brand-name img {
     height: 50px;
     padding-left: 120px;
@@ -102,48 +98,42 @@ nav ul li a:hover::after {
 nav ul li:hover ul.tour-dropdown {
     display: block;
 }
-
-.header p {
+.header p{
     color: #fff;
     padding-top: 290px;
     padding-left: 300px;
     font-size: 15px;
 }
-
-.counter-wrapper {
-    display: flex;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 6rem 9%;
-    position: relative;
-    color: #FFF;
-    background-color: #000;
-    justify-content: center;
-    justify-content: space-around;
-
+.counter-wrapper{
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+ padding: 6rem 9%;
+  position: relative;
+  color: #FFF;
+  background-color: #000;
+  justify-content: center;
+  justify-content: space-around;
+  
 }
-
-.counter {
-    text-align: center;
-    position: relative;
+.counter{
+  text-align: center;
+  position: relative;
 }
-
-.counter .count {
+.counter .count{
     font-size: 100px;
 }
-
-.counter p {
+.counter p{
     font-size: 20px;
-
+    
 }
-
-.img11 {
+.img11{
     background-image: url(https://assets.newatlas.com/dims4/default/c038f16/2147483647/strip/true/crop/2600x1200+0+0/resize/2600x1200!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Ffe%2F87%2Fa4b63744439ca241cf28ec5091dd%2Fstarship-capabilities-interplanetarydestinations-mars-01-2023-01-desktop-darkerv2.jpg);
+    background-position: center;
     height: 100vh;
-    width: 100%;
-
+    width:100%;
+    background-size: cover;
 }
-
-.img11 h1 {
+.img11 h1{
     padding-top: 350px;
     padding-bottom: 20px;
     display: flex;
@@ -151,15 +141,13 @@ nav ul li:hover ul.tour-dropdown {
     padding-left: 80px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.img11 p {
+.img11 p{
     color: #fff;
     padding-left: 80px;
     padding-bottom: 50px;
     font-family: D-DIN-Regular;
 }
-
-.img11 a {
+.img11 a{
     text-decoration: none;
     color: #fff;
     position: relative;
@@ -170,358 +158,302 @@ nav ul li:hover ul.tour-dropdown {
     margin-top: 15px;
     font-family: Arial, sans-serif;
     margin-left: 70px;
-
+   
 }
-
-.img-container {
+.img-container{
     display: flex;
     align-items: center;
-    transform: scale(0.8);
+    gap:50px;
     background-color: #000;
     padding-top: 0;
 
 }
-
-.arrow {
-    height: 40px;
-    cursor: pointer;
-    display: flex;
-    position: absolute;
-    margin-top: 290px;
+.arrow{
+   height: 40px;
+   cursor: pointer; 
+   display: flex;
+   position: absolute;
+   margin-top: 290px;
 }
-
-.left {
+.left{
     padding-right: 80px;
     transform: rotate(180deg);
 }
-
-.right {
-
+.right{
+   
     margin-left: 1400px;
-
+    
 }
-
-.frame {
-    overflow: hidden;
+.frame{
+   overflow: hidden;
 }
-
-.img {
-    width: 1500px;
+.img{
+   width:1550px;
     background-size: cover;
     float: right;
-    height: 100vh;
-
+   height: 100vh;
+   
 }
-
-.slider {
+.slider{
     display: flex;
 }
-
-.slide-show h1 {
+.slide-show h1{
     position: absolute;
     color: #fff;
     margin-left: 90px;
     margin-top: 250px;
     padding: 50px;
 }
-
-.slide-show p {
+.slide-show p{
     position: absolute;
     color: #fff;
     margin-left: 100px;
     margin-top: 350px;
 
 }
-
-.slide-show1 {
+.slide-show1{
     position: relative;
     display: flex;
 }
-
-.slide-show1 h5 {
+.slide-show1 h5{
     position: absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 220px;
 }
-
-.slide-show1 h1 {
+.slide-show1 h1{
     position: absolute;
     color: #FFF;
     padding: 35px;
     margin-left: 35px;
-    font-size: 45px;
+    font-size: 45px; 
     margin-top: 200px;
 }
-
-.slide-show1 p {
+.slide-show1 p{
     position: absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 360px;
 }
-
-.slide-show2 {
+.slide-show2{
     position: relative;
     display: flex;
 
 }
-
-.slide-show2 h5 {
+.slide-show2 h5{
     position: absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 220px;
 }
-
-.slide-show2 h1 {
+.slide-show2 h1{
     position: absolute;
     color: #FFF;
     padding: 35px;
     margin-left: 70px;
     margin-top: 260px;
-    font-size: 45px;
-    margin-top: 200px;
+    font-size: 45px; margin-top: 200px;
 }
-
-.slide-show2 p {
+.slide-show2 p{
     position: absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 360px;
 }
-
-.slide-show3 {
+.slide-show3{
     position: relative;
     display: flex;
 
 }
-
-.slide-show3 h5 {
-    position: absolute;
+.slide-show3 h5{
+    position:absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 220px;
 }
-
-.slide-show3 h1 {
+.slide-show3 h1{
     position: absolute;
     color: #FFF;
     padding: 35px;
     margin-left: 70px;
     margin-top: 270px;
-    font-size: 45px;
-    margin-top: 200px;
+    font-size: 45px; margin-top: 200px;
 }
-
-.slide-show3 p {
+.slide-show3 p{
     position: absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 360px;
 }
-
-.slide-show4 {
+.slide-show4{
     position: relative;
     display: flex;
 
 }
-
-.slide-show4 h5 {
-    position: absolute;
+.slide-show4 h5{
+    position:absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 220px;
 }
-
-.slide-show4 h1 {
+.slide-show4 h1{
     position: absolute;
     color: #FFF;
     margin-left: 70px;
     padding: 35px;
     margin-top: 270px;
-    font-size: 45px;
-    margin-top: 200px;
+    font-size: 45px; margin-top: 200px;
 }
-
-.slide-show4 p {
+.slide-show4 p{
     position: absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 360px;
 }
-
-.slide-show5 {
+.slide-show5{
     position: relative;
     display: flex;
 
 }
-
-.slide-show5 h5 {
-    position: absolute;
+.slide-show5 h5{
+    position:absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 220px;
 }
-
-.slide-show5 h1 {
+.slide-show5 h1{
     position: absolute;
     color: #FFF;
     padding: 35px;
     margin-left: 70px;
     margin-top: 270px;
-    font-size: 45px;
-    margin-top: 200px;
+    font-size: 45px; margin-top: 200px;
 }
-
-.slide-show5 p {
+.slide-show5 p{
     position: absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 360px;
 }
-
-.slide-show6 {
+.slide-show6{
     position: relative;
     display: flex;
 
 }
-
-.slide-show6 h5 {
-    position: absolute;
+.slide-show6 h5{
+    position:absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 220px;
 }
-
-.slide-show6 h1 {
+.slide-show6 h1{
     position: absolute;
     color: #FFF;
     padding: 35px;
     margin-left: 70px;
     margin-top: 270px;
-    font-size: 45px;
-    margin-top: 200px;
+    font-size: 45px; margin-top: 200px;
 }
-
-.slide-show6 p {
+.slide-show6 p{
     position: absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 360px;
 }
-
-.slide-show7 {
+.slide-show7{
     position: relative;
     display: flex;
 
 }
-
-.slide-show7 h5 {
-    position: absolute;
+.slide-show7 h5{
+    position:absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 220px;
 }
-
-.slide-show7 h1 {
+.slide-show7 h1{
     position: absolute;
     color: #FFF;
     padding: 35px;
     margin-left: 70px;
     margin-top: 270px;
-    font-size: 45px;
-    margin-top: 200px;
+    font-size: 45px; margin-top: 200px;
 }
-
-.slide-show7 p {
+.slide-show7 p{
     position: absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 360px;
 }
-
-.slide-show8 {
+.slide-show8{
     position: relative;
     display: flex;
 
 }
-
-.slide-show8 h5 {
-    position: absolute;
+.slide-show8 h5{
+    position:absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 220px;
 }
-
-.slide-show8 h1 {
+.slide-show8 h1{
     position: absolute;
     color: #FFF;
     padding: 25px;
     margin-left: 70px;
     margin-top: 270px;
-    font-size: 45px;
-    margin-top: 200px;
+    font-size: 45px; margin-top: 200px;
 }
-
-.slide-show8 p {
+.slide-show8 p{
     position: absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 380px;
 }
-
-.text-container {
+.text-container{
     background-color: #000;
     display: flex;
     height: 900px;
     width: 100%;
-
-
+   
+  
 }
-
-.video {
+.video{
     height: 750px;
     width: 900px;
     margin-left: 30px;
     margin-top: 80px;
-
+  
 }
-
-.video-text-container h2 {
+.video-text-container h2{
     color: #fff;
     margin-top: 250px;
     margin-left: 30px;
-
-}
-
-.video-text-container p {
+ 
+  }
+ .video-text-container p{
     color: #fff;
     margin-top: 20px;
     margin-left: 30px;
-
-
+    
+ 
 }
-
-.new-container {
+ .new-container{
     background-color: #000;
     color: #fff;
     text-align: center;
     height: 250px;
     padding-top: 90px;
-}
-
-.new-container h1 {
+ }
+ .new-container h1{
     padding-top: 110px;
     padding: 15px;
-
-}
-
-.new-container p {
+    
+ }
+ .new-container p{
     padding-bottom: 70px;
-}
-
-.new-container button a {
+ }
+ .new-container button a{
     text-decoration: none;
     background-color: #000;
     padding-top: 20px;
@@ -529,13 +461,11 @@ nav ul li:hover ul.tour-dropdown {
     color: #fff;
     margin-top: 200px;
     font-size: 15px;
-}
-
-.new-container button a:hover {
+ }
+ .new-container button a:hover {
     color: gray;
-    cursor: pointer;
+    cursor: pointer;  
 }
-
 .img01 {
     display: flex;
     text-align: center;
@@ -544,35 +474,29 @@ nav ul li:hover ul.tour-dropdown {
     color: #000;
     margin-left: 300px;
 }
-
 .new-container2 {
     background-color: #000;
     position: relative;
 }
-
-.small-heading {
-    background-color: #000;
+.small-heading{
+   background-color: #000;
 }
-
-.small-heading h1 {
+.small-heading h1{
     color: #fff;
     text-align: center;
     padding-top: 110px;
     padding-bottom: 80px;
 }
-
-.cards {
+.cards{
     background-color: #000;
     color: #FFF;
 
 }
-
-.flexbox {
+.flexbox{
     display: flex;
-
+    
 }
-
-.card1 {
+.card1{
     color: #fff;
     background-color: #000;
     height: 650px;
@@ -581,19 +505,16 @@ nav ul li:hover ul.tour-dropdown {
     float: left;
     margin-right: 90px;
 }
-
-.card1 h4 {
+.card1 h4{
     margin-top: 25px;
     padding-bottom: 7px;
 
 }
-
-.card1 h2 {
+.card1 h2{
     margin-bottom: 25px;
 }
-
-.card2 {
-    color: #fff;
+.card2{
+    color:#fff;
     background-color: #000;
     height: 650px;
     width: 600px;
@@ -602,28 +523,23 @@ nav ul li:hover ul.tour-dropdown {
     float: right;
 
 }
-
-.card2 h4 {
+.card2 h4{
     margin-top: 25px;
     padding-bottom: 7px;
 
 }
-
-.card2 h2 {
+.card2 h2{
     margin-bottom: 25px;
 }
-
-.pic1 {
+.pic1{
     height: 350px;
-    width: 600px;
+    width:600px;
 }
-
-.pic2 {
+.pic2{
     height: 350px;
-    width: 600px;
+    width:600px;
 }
-
-.info {
+.info{
     color: #fff;
     background-color: #000;
     text-align: center;
@@ -631,12 +547,10 @@ nav ul li:hover ul.tour-dropdown {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
-.info h5 {
+.info h5{
     color: gray;
 }
-
-.info input {
+.info input{
     height: 40px;
     width: 400px;
     text-align: center;
@@ -644,80 +558,66 @@ nav ul li:hover ul.tour-dropdown {
     color: grey;
     background-color: #000;
 }
-
-.info button {
+.info button{
     height: 45px;
     width: 200px;
     background-color: #000;
     color: #fff;
     border-color: #fff;
 }
-
-.info button:hover {
+.info button:hover{
     background-color: #fff;
     color: #000;
 }
-
-.para {
+.para{
     background-color: #000;
 
 }
-
-.para p {
+.para p{
     font-size: 15px;
     color: gray;
     text-align: center;
-
+    
     padding-bottom: 20px;
 }
-
-.para b {
+.para b{
     color: #fff;
 }
-
-.line {
+.line{
     background-color: #000;
-
+    
 }
-
-.line-img {
+.line-img{
     margin-left: 700px;
     margin-top: 110px;
 }
-
-.names {
+.names{
     background-color: #000;
     height: 150px;
     display: flex;
     text-align: center;
 }
-
-.names a {
+.names a{
     text-decoration: none;
     display: flex;
     text-align: center;
     padding: 15px;
     margin-top: 50px;
     margin-left: 300px;
-
+   
 }
-
-.a1 {
+.a1{
     color: gray;
 }
-
-.a2 {
+.a2{
     color: #fff;
 }
-
-.a2:hover {
+.a2:hover{
     color: gray;
 }
-
-.a3 {
+.a3{
     color: #fff;
 }
-
-.a3:hover {
+.a3:hover{
     color: gray;
 }
