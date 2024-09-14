@@ -185,7 +185,7 @@ nav ul li:hover ul.tour-dropdown {
     
 }
 .frame{
-   overflow: hidden;
+   
 }
 .img{
    width:1550px;
@@ -243,7 +243,7 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show2 h5{
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 220px;
 }
 .slide-show2 h1{
@@ -257,7 +257,7 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show2 p{
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 360px;
 }
 .slide-show3{
@@ -268,7 +268,7 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show3 h5{
     position:absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 220px;
 }
 .slide-show3 h1{
@@ -282,8 +282,8 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show3 p{
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
-    margin-top: 360px;
+    margin-left: 110px;
+    margin-top: 320px;
 }
 .slide-show4{
     position: relative;
@@ -293,7 +293,7 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show4 h5{
     position:absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 220px;
 }
 .slide-show4 h1{
@@ -307,7 +307,8 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show4 p{
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
+    margin-top: 320px;
     margin-top: 360px;
 }
 .slide-show5{
@@ -318,7 +319,7 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show5 h5{
     position:absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 220px;
 }
 .slide-show5 h1{
@@ -332,8 +333,8 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show5 p{
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
-    margin-top: 360px;
+    margin-left: 110px;
+    margin-top: 320px;
 }
 .slide-show6{
     position: relative;
@@ -343,7 +344,7 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show6 h5{
     position:absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 220px;
 }
 .slide-show6 h1{
@@ -357,8 +358,8 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show6 p{
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
-    margin-top: 360px;
+    margin-left: 110px;
+    margin-top: 320px;
 }
 .slide-show7{
     position: relative;
@@ -368,7 +369,7 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show7 h5{
     position:absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 220px;
 }
 .slide-show7 h1{
@@ -382,8 +383,8 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show7 p{
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
-    margin-top: 360px;
+    margin-left: 110px;
+    margin-top: 340px;
 }
 .slide-show8{
     position: relative;
@@ -393,13 +394,13 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show8 h5{
     position:absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 220px;
 }
 .slide-show8 h1{
     position: absolute;
     color: #FFF;
-    padding: 25px;
+    padding: 30px;
     margin-left: 70px;
     margin-top: 270px;
     font-size: 45px; margin-top: 200px;
@@ -407,8 +408,8 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show8 p{
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
-    margin-top: 380px;
+    margin-left: 110px;
+    margin-top: 400px;
 }
 .text-container{
     background-color: #000;
