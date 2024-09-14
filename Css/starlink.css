@@ -44,9 +44,9 @@
 
 .card1-img {
     width: 400px;
-    margin-left: 40px;
     transition: 0.5s;
     height: 93vh;
+    margin-inline-start: 35px;
 }
 
 .card1-img:hover {
@@ -54,28 +54,6 @@
 }
 
 
-.card2-img {
-    width: 400px;
-    height: 93vh;
-    margin-left: 40px;
-    transition: 0.5s;
-}
-
-.card2-img:hover {
-    transform: translateY(-10px);
-}
-
-
-.card3-img {
-    width: 400px;
-    height: 93vh;
-    margin-left: 40px;
-    transition: 0.5s;
-}
-
-.card3-img:hover {
-    transform: translateY(-10px);
-}
 
 
 .txt-1 {
