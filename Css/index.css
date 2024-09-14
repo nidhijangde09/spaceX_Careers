@@ -40,10 +40,16 @@ body {
     background-color: #ffffff00;
     color: #ffffff;
     border: 2px solid #ffffff;
-    transition-duration: 0.5s;
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn1:hover {
+  background-color: #ffffff;
+  color: #000;
+  transform: translateY(-10px);
 }
 
 .img-2 {
@@ -83,10 +89,12 @@ nav .fa-solid {
     font-weight: bold;
     cursor: pointer;
 }
-#sideMenu{
-  margin-right: 100px;
-  margin-top: 10px; 
+
+#sideMenu {
+    margin-right: 100px;
+    margin-top: 10px;
 }
+
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -142,96 +150,115 @@ nav ul li:hover ul.tour-dropdown {
     display: block;
 }
 
-.footer-container{
+.footer-container {
     width: 100%;
-    height:70vh;
+    height: 70vh;
     background-color: #040208;
     margin-top: -10px;
+   
 }
 
-.footer-mail-form{
+.footer-mail-form {
     float: right;
     margin-right: 150px;
     margin-top: -150px;
-}
+    
+   }
 
-.label{
+.label {
     color: #ffffff;
     font-size: 25px;
     margin-right: 15px;
-    font-family:"Prompt", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-family: "Prompt", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+   
 }
-.email-field{
+
+.email-field {
     font-size: 20px;
     padding: 14px;
     padding-right: 60px;
     background-color: #1f1e4a;
     border: none;
+    margin-bottom: 20px;
 }
-.btn{
+
+.btn {
     font-size: 15px;
     padding: 0px 35px;
     padding-top: 17px;
     padding-bottom: 14px;
-    margin-left: -5px; 
+    margin-left: -5px;
 }
 
-.footer-logo{
- margin-left: 120px;
+.footer-logo {
+    margin-left: 120px;
 }
 
-.footer-heading{
+.footer-heading {
     font-size: 20px;
     color: #ffffff;
-    font-family:"Prompt", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
+    font-family: "Prompt", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
-.footer-content{
+
+.footer-content {
     float: right;
     margin-right: 650px;
     padding: 0px 50px;
-    margin-top: -50px; 
+    margin-top: -30px;
 }
-.footer-text{
+
+.footer-text {
     font-size: 15px;
     color: #ffffff;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
 }
-.footer-content-1{
-    float: right; 
+
+.footer-content-1 {
+    float: right;
     margin-right: -350px;
     padding-left: 50px;
-    margin-top: -50px; 
+    margin-top: -30px;
+    
 }
-.footer-heading-1{
+
+.footer-heading-1 {
     font-size: 20px;
     color: #ffffff;
-    font-family:"Prompt", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-family: "Prompt", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
-.footer-text-1{
+
+.footer-text-1 {
     font-size: 15px;
     color: #ffffff;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
 }
-.footer-id-container{
-    margin-top: 160px; 
+
+.footer-id-container {
+    margin-top: 150px;
+    
 }
-.footer-id{
-color: #ffffff;
-margin-left: 90px;
-font-size: 20px;
+
+.footer-id {
+    color: #ffffff;
+    margin-left: 90px;
+    font-size: 20px;
+    padding-top: 20px;
 }
-.footer-icon{
+
+.footer-icon {
     width: 30px;
 }
-.footer-icon-container{
+
+.footer-icon-container {
     position: relative;
     float: right;
-    margin-top:-50px ;
+    margin-top: -50px;
     margin-right: 640px;
 }
-.footer-content2{
+
+.footer-content2 {
     color: #ffffff;
     float: right;
     margin-top: -70px;
