@@ -1,0 +1,308 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #000;
+    
+}
+.cover{background-image:url(https://www.spacex.com/static/images/backgrounds-new/SpaceX_Careers_BG.png);
+height: 750px;
+background-size: cover;
+background-position: center;
+}
+nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 10;
+    height: 65px;
+    top: 8px;
+   
+}
+
+nav .fa-solid {
+    display: none;
+}
+
+.fa-solid {
+    color: #000;
+}
+
+.brand-name {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#sideMenu{
+  margin-right: 290px;
+  margin-top: 30px;
+
+    
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 1px 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 1px;
+    background: #f2b75e;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.4s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.brand-name img {
+    height: 50px;
+    padding-left: 120px;
+}
+
+.tour-dropdown li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.tour-dropdown {
+    width: 7%;
+    background: #c9c6c6;
+    position: absolute;
+    display: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+nav ul li:hover ul.tour-dropdown {
+    display: block;
+}
+
+#heading{
+text-align: center;
+color: ghostwhite;
+font-size: xx-large;
+padding-top: 100px;
+}
+#line{
+    text-align: center;
+    color: ghostwhite;
+    font-size: large;
+    margin-top: auto;
+}
+#option{
+    border-radius: 0%;
+    border-color: floralwhite;
+    background-color:rgba(0, 255, 255, 0);
+    padding:25px  130px;
+    justify-content:center;
+    display: block;
+    border-style: solid;
+    font-size: large;
+    color:#fff;
+    align-items: center;
+    display: flex;
+    padding-left: 200px;
+}
+.form-container{
+    margin-left:500px;
+    margin-right:500px;
+}
+input::placeholder{
+    color: #fff;
+    font-size:large;
+}
+#button0{
+background-color: #ffffff00;
+padding:26px  310px;
+justify-content:center;
+display: block;
+align-items: center;
+display: flex;
+padding-left: 200px;
+border-color: #fff;
+color: #fff;
+}
+#button0:hover{
+    background:#fff;
+    box-shadow: #ffffff;
+    color: #000; 
+}
+
+#nobutton{
+background-color: #ffffff00;
+border-color: rgba(250, 235, 215, 0);
+color: #fff;
+align-items: center;
+font-size: medium;
+margin-left: 45px;
+padding-top: 20px;
+}
+#onbutton{
+background-color: #ffffff00;
+border-color: rgba(250, 235, 215, 0);
+color: #fff;
+align-items: center;
+font-size: medium;
+margin-left: 190px;
+overflow: hidden;
+padding-top: 20px;
+}
+.video{
+    position:absolute;
+    right: 10;
+    left: 0%;
+    background-size: cover;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+    background-position: 0%;
+    margin-top: -22px;
+}
+.video p{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#text{
+    text-align:left;
+    margin-top: 10px;
+    color: #fff;
+    margin-right: 40px;
+    padding-left: 1000px;
+}
+#headingtext{
+    text-align: right;
+    color: #fff;
+    margin-right: 228px;
+    padding-top: 400px; 
+}
+.container{
+    position: relative;
+    background: #c9c6c6;
+    margin-top: 400px;
+    display: flex;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    overflow-x: hidden;
+}
+#heading2{
+    text-align: center;
+    color: #fff;
+    margin-top: 350px;
+    background-color: #000;
+    font-size: xx-large;
+    
+}
+#text2{
+    text-align: center;
+    color:#fff;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    font-size: 15px;
+    display: inline-flex;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 70px; 
+    height: 30px; 
+    align-items: center;
+    margin-left: 650px;
+    margin-bottom: 100px;
+}
+.button a:hover{
+    background:#fff;
+    box-shadow: #ffffff;
+    color: #000;   
+}
+.video2{
+    position:absolute;
+    right: 10;
+    left: 0%;
+    background-size: cover;
+    z-index: -1;
+    min-width: 100%;
+   height: 100vh;
+    background-position: 0%
+}
+.cover2{background-image:url(C:\Users\bhavn\spaceX_careers\Images\img-3.jpeg);
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+}
+.picture{
+    height: 700px;
+    width: 1520px;
+    margin-top: 710px;
+  
+}
+.new{
+    display: flex;
+}
+.line{
+    color: #fff;
+    text-align: center;
+ font-size: large;
+}
+.em{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#line2{
+    align-items: center;
+    margin-left: 720px;
+    height: 30px;
+    
+}
+.buttons a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    font-size: 15px;
+    display: inline-flex;
+    border: 2px solid #fff;
+    padding: 13px 30px;
+    margin-top: 70px;
+    font-family: Arial, sans-serif;
+    margin-left: 70px; 
+    height: 30px; 
+    align-items: center;
+    margin-left: 685px;
+    margin-bottom: 100px;
+}
+.buttons a:hover{
+    background:#fff;
+    box-shadow: #ffffff;
+    color: #000; 
+}
