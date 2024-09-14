@@ -33,7 +33,7 @@ While most rockets are designed to burn up on reentry, SpaceX<br> rockets can no
 </div>
 <div class="box2">
   <div class="card3">
-    <img src=""class="picture1">
+    <img src=""class="picture1"/>
     <h5>TEXAS</h5>
     <h1>TESTING FACILITY</h1>
     <p>
@@ -42,7 +42,7 @@ While most rockets are designed to burn up on reentry, SpaceX<br> rockets can no
 </div>
 
 <div class="card4">
-  <img src=""class="picture1">
+  <img src=""class="picture1"/>
   <h5>TEXAS</h5>
   <h1>TESTING FACILITY</h1>
   <p>
@@ -53,7 +53,7 @@ While most rockets are designed to burn up on reentry, SpaceX<br> rockets can no
 <div class="box3">
 
 <div class="card5">
-  <img src=""class="picture1">
+  <img src=""class="picture1"/>
   <h5>TEXAS</h5>
   <h1>TESTING FACILITY</h1>
   <p>
@@ -62,7 +62,7 @@ While most rockets are designed to burn up on reentry, SpaceX<br> rockets can no
 </div>
 
 <div class="card6">
-  <img src=""class="picture1">
+  <img src=""class="picture1"/>
   <h5>TEXAS</h5>
   <h1>TESTING FACILITY</h1>
   <p>
