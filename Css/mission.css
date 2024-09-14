@@ -166,31 +166,31 @@ nav ul li:hover ul.tour-dropdown {
 
 }
 .arrow{
-   height: 19px;
+   height: 40px;
    cursor: pointer; 
    display: flex;
    position: absolute;
-   margin-top: 300px;
+   margin-top: 290px;
 }
 .left{
-    margin-right: 30px;
+    padding-right: 80px;
+    transform: rotate(180deg);
 }
 .right{
-    transform: rotate(180deg);
+   
     margin-left: 1400px;
     
 }
 .frame{
-    overflow: hidden;
+   overflow: hidden;
 }
 .img{
-    height: 730px;
-    width:1520px;
+   
+    width:1550px;
     background-size: cover;
-    margin: 0px;
-    padding: 0;
     float: right;
-    object-fit: cover;
+   height: 100vh;
+   
 }
 .slider{
     display: flex;
@@ -412,7 +412,7 @@ nav ul li:hover ul.tour-dropdown {
     background-color: #000;
     display: flex;
     height: 900px;
-    width: 1500px;
+    width: 100%;
    
   
 }
@@ -423,16 +423,16 @@ nav ul li:hover ul.tour-dropdown {
     margin-top: 80px;
   
 }
-.text-container h2{
+.video-text-container h2{
     color: #fff;
     margin-top: 250px;
-    float: right;
+    margin-left: 30px;
  
   }
- .text-container p{
+ .video-text-container p{
     color: #fff;
-    margin-top: 300px;
-    margin-left: px;
+    margin-top: 20px;
+    margin-left: 30px;
     
  
 }
