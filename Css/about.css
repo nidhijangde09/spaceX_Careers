@@ -122,20 +122,159 @@ nav ul li:hover ul.tour-dropdown {
     margin-left: 90px;
     padding: 10px;
     display: flex;
-
 }
 .inner-container h1{
     padding-top:50px;
     padding-left: 60px;
+    display: grid;
 }
 .profile-container{
     display: flex;
-  
-
+   
+}
+.grid{
+    display: grid;
 }
 .profile-card-container1{
-    width:100px;
-    height:100px;
+    width:340px;
+    padding: 15px;
+    height:480px;
     color: #fff;
-    background-color: rgb(37, 34, 34);
+    background-color: rgb(54, 49, 49);
+    display: flex;
+    margin-top: 170px;
+    position: relative;
+    margin-left: -290px;
+    
 }
+.profileimg{
+    height: 230px;
+    width: 250px;
+    float: right;
+    float: right;
+}
+.profile-card-container1 h3{
+     margin-top:230px ;
+     margin-left: -240px;
+     display: inline;
+}
+.profile-card-container1 h5{
+
+   margin-top: 270px;
+   margin-left :-90px;
+   padding: 6px;
+}
+.profile-card-container1 p{
+    margin-top: 300px;
+    margin-left: -70px;
+}
+
+<!--container2-->
+.profile-card-container2{
+    width:340px;
+    padding: 15px;
+    height:480px;
+    color: #fff;
+    background-color: rgb(54, 49, 49);
+    display: flex;
+    float: left;
+    margin-top: 170px;
+    position: relative;
+   
+    
+}
+.profile-card-container2 h3{
+    margin-top:230px ;
+    margin-left: -240px;
+    display: inline;
+}
+.profile-card-container2 h5{
+
+  margin-top: 270px;
+  margin-left :-90px;
+  padding: 6px;
+}
+.profile-card-container2 p{
+   margin-top: 300px;
+   margin-left: -70px;
+}
+.small-heading{
+    background-color: #000;
+ }
+ .small-heading h1{
+     color: #fff;
+     text-align: center;
+     padding-top: 110px;
+     padding-bottom: 80px;
+ }
+ .cards{
+     background-color: #000;
+     color: #FFF;
+ 
+ }
+ .flexbox{
+     display: flex;
+     
+ }
+ .card1{
+     color: #fff;
+     background-color: #000;
+     height: 650px;
+     width: 600px;
+     margin-left: 120px;
+     float: left;
+     margin-right: 90px;
+ }
+ .card1 h4{
+     margin-top: 25px;
+     padding-bottom: 7px;
+ 
+ }
+ .card1 h2{
+     margin-bottom: 25px;
+ }
+ .card2{
+     color:#fff;
+     background-color: #000;
+     height: 650px;
+     width: 600px;
+     margin-right: 120px;
+     margin-left: 10px;
+     float: right;
+ 
+ }
+ .card2 h4{
+     margin-top: 25px;
+     padding-bottom: 7px;
+ 
+ }
+ .card2 h2{
+     margin-bottom: 25px;
+ }
+ .pic1{
+     height: 350px;
+     width:600px;
+ }
+ .pic2{
+     height: 350px;
+     width:600px;
+ }
+ .info{
+     color: #fff;
+     background-color: #000;
+     text-align: center;
+     align-items: center;
+     padding-top: 30px;
+     padding-bottom: 30px;
+ }
+ .info h5{
+     color: gray;
+ }
+ .info input{
+     height: 40px;
+     width: 400px;
+     text-align: center;
+     margin: 15px;
+     color: grey;
+     background-color: #000;
+ }
