@@ -99,15 +99,18 @@ nav ul li:hover ul.tour-dropdown {
     padding: 20px;    
 }
 .content h2{
-    margin-top: 80px;
+    margin-top: 100px;
     margin-left: 250px;
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 .content p{
-    margin-left: 250px;
-    margin-top: 60px;
+    margin-left: 200px;
+    margin-top: 70px;
     float: right;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+    font-size: 18px;
 }
 .small-heading{
     background-color: #000;
@@ -226,14 +229,16 @@ nav ul li:hover ul.tour-dropdown {
     background-color: #000;
     width: 100%;
     color: #fff;
+    padding-bottom: 40px;
  }
  .bg .invest h1{
     margin-left: 90px;
+    padding-bottom: 30px;
  }
  .investlogo{
-    width:170px;
-    height:80px;
-    padding: 40px;
+    width:200px;
+    height:50px;
+    padding: 30px;
     margin-left: 50px;
     padding-bottom: -20px;
  }
