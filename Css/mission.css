@@ -483,6 +483,7 @@ nav ul li:hover ul.tour-dropdown {
 }
 .small-heading{
    background-color: #000;
+   width: 100%;
 }
 .small-heading h1{
     color: #fff;
@@ -493,6 +494,7 @@ nav ul li:hover ul.tour-dropdown {
 .cards{
     background-color: #000;
     color: #FFF;
+    width: 100%;
 
 }
 .flexbox{
