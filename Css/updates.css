@@ -40,5 +40,21 @@ font-size: 100px;
 .text-3{
     color: cornsilk;
     margin-left: 200px;
+}
 
+.img333{
+    height: 80vh;
+    width: 70%;
+    margin-left: 210px;
+    margin-right: 120px;
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+.Text-4{
+    color: ghostwhite;
+    text-align: center;
+}
+.text-5{
+    color: whitesmoke;
+    margin-left: 200px;
 }
