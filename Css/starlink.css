@@ -1,6 +1,6 @@
 @import url("https://fonts.google.com/specimen/Archivo+Black");
 
-#.bg-img {
+.bg-img {
     background-image: url("../Images/abc.png");
     background-position: center;
     background-repeat: no-repeat;

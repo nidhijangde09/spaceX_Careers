@@ -90,8 +90,8 @@ nav .fa-solid {
 }
 
 .brand-name {
-    font-size: 20px;
-    font-weight: bold;
+    width: -5px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
