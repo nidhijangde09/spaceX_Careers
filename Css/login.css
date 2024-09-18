@@ -73,7 +73,7 @@
     position: absolute;
   }
   
-  .btn-1 {
+  .input-field .btn-1 {
     background-color: rgb(20, 48, 60);
     color: white;
     font-size: 20px;
@@ -81,6 +81,8 @@
     border-radius: 20px;
     margin-top: 30px;
     cursor: pointer;
+    margin-left: 140px;
+    padding: 6px 40px;
   }
   
   .text-1 {

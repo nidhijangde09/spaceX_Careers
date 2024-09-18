@@ -1,24 +1,15 @@
-const counts = document.querySelectorAll('.count')
-const speed = 97
-counts.forEach((counter) =>{
-    function upDate(){
-        const target = Number(counter.getAttribute('data-target'))
-        const count = Number(counter.innerText)
-        const inc = target / speed
-        if(count < target){
-            counter.innerText = Math.floor(inc + count)
-            setTimeout( upDate, 1)
-        }else{
-            counter.innerText = target
-        }
-    }
-    upData()
-})
-
-const left = document.querySelector('.left');
-const right = document.querySelector('.right');
-const slider = document.querySelector('.slider');
-
-left.addEventListener('click',()=>{
-    console.log('Hello');
-})
+function counter(id, start, end, duration) {
+let obj = document.getElementById(id),
+current= start,
+range =end-start,
+increment = end > start ? 1 : -1,
+step= Math.abs(Math.floor(duration / range)),
+timer= setInterval(() => {
+current += increment;
+obj.textContent = current;
+if (current == end) {
+    clearInterval(timer);
+}
+}, step);
+}
+ counter("count", 0, 200, 318);
