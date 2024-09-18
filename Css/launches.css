@@ -85,28 +85,23 @@ body{
 }
 .info-details{
     display:flex;
+    font-size: 15px;
 }
 .i-d1{
     margin-left: 200px;
 }
+.i-d4{
+    margin-left: 200px;
+    font-size: 17px;
+}
 .i-d3{
-   margin-left: 130px;
+   padding: 0px 50px;
 }
 .i-d2{
-    margin-left: 120px;
+    padding: 0px 130px;
+
 }
-.i-d4{
-    margin-left:50px ;
-}
-.i-d5{
-    margin-left: 130px;
-}
-.i-d6{
-    margin-left: 160px;
-}
-.i-d7{
-    margin-left: 140px;
-}
+
 .info-block{
     background: linear-gradient(5deg, #172135, transparent);
 }
