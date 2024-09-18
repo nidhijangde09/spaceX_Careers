@@ -31,15 +31,15 @@ body {
 
 .contact-form {
     margin-top: 50px;
-    padding: 30px 400px;
-    margin-left: -230px;
+    padding: 30px;
+    margin-left: 150px;
 }
 
 
 .text-field1 {
     width: 30%;
     background-color: white;
-    padding: 20px 120px;
+    padding: 20px 50px;
 
 
 }
@@ -47,7 +47,7 @@ body {
 .text-field2 {
     width: 30%;
     background-color: white;
-    padding: 20px 120px;
+    padding: 20px 50px;
     margin-top: 20px;
 
 }
@@ -55,14 +55,15 @@ body {
 .text-field3 {
     width: 30%;
     background-color: white;
-    padding: 20px 120px;
+    padding: 20px 50px;
     margin-top: 22px;
 }
 
 .contact-form-1 {
-    float: right;
-    margin-top: -250px;
-    margin-right: 170px;
+   float: right; 
+   margin-top: -250px;
+   margin-right: 150px;
+
 }
 
 .text-field4 {
@@ -75,7 +76,9 @@ body {
 .btn-10 {
     margin-top: 20px;
     color: white;
-    margin-left: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     padding: 15px 70px;
     background-color: rgba(32, 61, 100, 0.516);
 }
