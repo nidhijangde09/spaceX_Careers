@@ -184,6 +184,7 @@ nav ul li:hover ul.tour-dropdown {
     padding-top: 0;
 
 }
+<<<<<<< HEAD
 
 .arrow {
     height: 40px;
@@ -191,17 +192,31 @@ nav ul li:hover ul.tour-dropdown {
     display: flex;
     position: absolute;
     margin-top: 290px;
+=======
+.arrow{
+   height: 40px;
+   cursor: pointer; 
+   display: flex;
+   position: absolute;
+  
+>>>>>>> 4f2b968476211f9700c8853c14db85f31bbca2e8
 }
 
 .left {
     padding-right: 80px;
     transform: rotate(180deg);
+    margin-top: 650px;
 }
 
 .right {
 
     margin-left: 1400px;
+<<<<<<< HEAD
 
+=======
+    margin-top: -90px;
+    
+>>>>>>> 4f2b968476211f9700c8853c14db85f31bbca2e8
 }
 
 .frame {
