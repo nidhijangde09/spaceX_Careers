@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-img-1 {
+    background-image: url("../Images/galaxy-night-landscape.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 120vh;
+}
+
+.head-content {
+    text-align: center;
+}
+
+.head-content h1 {
+    color: white;
+    padding: 150px;
+    font-family: "Reddit", sans-serif;
+}
+
+.head-text-content {
+    margin-top: -150px;
+}
+
+.head-text-content p {
+    color: white;
+}
+
+.contact-form {
+    margin-top: 50px;
+    padding: 30px 400px;
+    margin-left: -230px;
+}
+
+
+.text-field1 {
+    width: 30%;
+    background-color: white;
+    padding: 20px 120px;
+
+
+}
+
+.text-field2 {
+    width: 30%;
+    background-color: white;
+    padding: 20px 120px;
+    margin-top: 20px;
+
+}
+
+.text-field3 {
+    width: 30%;
+    background-color: white;
+    padding: 20px 120px;
+    margin-top: 22px;
+}
+
+.contact-form-1 {
+    float: right;
+    margin-top: -250px;
+    margin-right: 170px;
+}
+
+.text-field4 {
+    width: 30%;
+    background-color: white;
+    padding: 100px 150px;
+
+}
+
+.btn-10 {
+    margin-top: 20px;
+    color: white;
+    margin-left: 550px;
+    padding: 15px 70px;
+    background-color: rgba(32, 61, 100, 0.516);
+}

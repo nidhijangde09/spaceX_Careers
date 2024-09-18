@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms</title>
+    <link rel="stylesheet" href="../Css/login.css" />
+    <link rel="stylesheet" href="../Css/index.css" />
+</head>
+
+<body>
+
+        <nav>
+          <div class="brand-name">
+            <a href="../index.html">
+              <img src="../Images/spacex-logo.png"></a>
+          </div>
+          <ul id="sideMenu1">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Html/mission.html">Mission</a></li>
+            <li><a href="../Html/launches.html">launches</a></li>
+            <li><a href="../Html/careers.html">Careers</a></li>
+            <li><a href="../Html/updates.html">Updates</a></li>
+            <li><a href="../Html/about.html">About</a></li>
+            <li><a href="../Html/contact.html">Contact us</a></li>
+            <li><a href="../Html/login.html">login/Register</a></li>
+            <li><a href="../Html/starlink.html">Starlink</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+    <img src="../Images/register-img.webp" class="background-img">
+
+
+
+    <div class="container">
+        <div class="form-box">
+            <h1 class="top-heading">Login Form</h1><hr class="hr-1"></br>
+            <form>
+                <div class="input-grup">
+
+                    <div class="input-field">
+                        <label for="inputFullName" class="label-text">Enter usernsme: </label>
+                        <input type="text" class="input-text" placeholder="Full Name" required />
+                    </div></br>
+
+                    
+
+                    <div class="input-field">
+                        <label for="inputemail" class="label-text">Enter Email id  :  </label>
+                        <input type="email" class="input-text" placeholder="email id" required />
+                    </div></br>
+
+                    <div class="input-field">
+                        <label for="inputpassword" class="label-text">Enter Password: </label>
+                        <input type="password" class="input-text" placeholder="password" required />
+                    </div></br>
+
+                    <div class="input-field">
+                        <label for="inputpassword" class="label-text">Don't have an account?<a href="../Html/register.html" >Register Now </a></label>
+                       
+                    </div>
+
+                    <div class="input-field">
+                        <button type="submit" onclick="msg()" class="btn-1" > Login Now</button>
+                        <script>
+                            function msg(){
+                            alert("Login succesfully");
+                            }
+
+                        </script>
+                    </div>
+                </div>
+        </div>
+        </form>
+    </div>
+
+    <div class="footer-container">
+
+        <div class="footer-logo">
+          <img src="../Images/spacex-logo.png">
+        </div>
+    
+    
+        <form class="footer-mail-form">
+          <label class="label" for="email">Stay in our orbit</label>
+          <input type="email" class="email-field" placeholder="enter your email id" required />
+          <button class="btn">Submit</button>
+          <hr>
+        </form>
+        
+        <div class="footer-content">
+          <h1 class="footer-heading">Company</h1>
+          <p><a class="footer-text" href="../Html/about.html">About</a></p>
+          <p><a class="footer-text" href="../Html/careers.html">Careers</a></p>
+        </div>
+    
+        <div class="footer-content-1">
+          <h1 class="footer-heading-1">Resources</h1>
+          <p><a class="footer-text-1" href="../Html/launches.html">Launch services</a>
+          <p>
+          <p><a class="footer-text-1" href="../Html/updates.html">Updates</a>
+        
+        </div>
+    
+        <div class="footer-id-container">
+          <hr>
+          <p class="footer-id">info@spacex.in</p>
+        </div>
+    
+        <div class="footer-icon-container">
+          <img class="footer-icon" src="../Images/facebook .png">
+          <img class="footer-icon" src="../Images/twitter.png">
+          <img class="footer-icon" src="../Images/youtube.png">
+          <img class="footer-icon" src="../Images/linkedin.png">
+          <img class="footer-icon" src="../Images/instagram.png">
+        </div>
+    
+        <div class="footer-content2">
+          <p>Copyright @ 2022 Skyroot Aerospace. All Rights<br>
+             Reserved.</p>
+        </div>
+      </div>
+</div>
+
+</body>
+
+</html>
+<!--background-color: rgb(20, 48, 60);
+    color: white;
+    font-size: 20px;
+    border-radius: 0px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-color: floralwhite;-->

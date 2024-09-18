@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
 }
 
 nav {
@@ -126,22 +127,29 @@ nav ul li:hover ul.tour-dropdown {
 .small-heading {
     background-color: #000;
     width: 100%;
+    
 }
 
 .small-heading h1 {
     color: #fff;
     text-align: center;
-    padding-top: 110px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 40px;
 }
-
-.cards {
+.container-1{
     background-color: #000;
-    color: #FFF;
     width: 100%;
-    align-items: center;
-    height: 150vh;
-
+    padding: 20px 0px;
+}
+.leadership-card-container{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #272525;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 0px;
 }
 
 .flexbox {
@@ -184,7 +192,7 @@ nav ul li:hover ul.tour-dropdown {
     background-color: #393535;
     height: 450px;
     width: 350px;
-    margin-left: 120px;
+    margin-left: 90px;
     float: left;
     margin-right: -30px;
     margin-bottom: 30px;
@@ -213,7 +221,7 @@ nav ul li:hover ul.tour-dropdown {
     background-color: #393535;
     height: 450px;
     width: 350px;
-    margin-left: 120px;
+    margin-left: 90px;
     float: left;
     margin-right: 90px;
     margin-bottom: 30px;
