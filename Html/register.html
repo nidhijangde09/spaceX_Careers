@@ -6,40 +6,35 @@
 </head>
 
 <body>
-    <img src="img4.jpg" class="background-img">
+    <img src="../Images/register-img.webp" class="background-img">
 
 
 
     <div class="container">
         <div class="form-box">
-            <h1>Registration Form</h1>
+            <h1 class="top-heading">Registration Form</h1><hr class="hr-1"></br>
             <form>
                 <div class="input-grup">
 
                     <div class="input-field">
                         <label for="inputFullName" class="label-text">Enter FullName: </label>
                         <input type="text" class="input-text" placeholder="Full Name" required />
-                    </div>
+                    </div></br>
 
                     <div class="input-field">
                         <label for="inputFullName" class="label-text">Enter Phone No: </label>
                         <input type="text" class="input-text" placeholder="phone number" required />
-                    </div>
+                    </div></br>
 
                     <div class="input-field">
                         <label for="inputemail" class="label-text">Enter Email id: </label>
                         <input type="email" class="input-text" placeholder="email id" required />
-                    </div>
+                    </div></br>
 
                     <div class="input-field">
                         <label for="inputpassword" class="label-text">Enter Password: </label>
                         <input type="password" class="input-text" placeholder="password" required />
-                    </div>
-
-                    <div class="input-field">
-                        <label for="inputpassword" class="label-text">D.O.B : </label>
-                        <input type="date" class="input-text-1" required />
-                    </div>
+                    </div></br>
 
                     <div class="input-field">
                         <label for="inputpassword" class="label-text">Select gender: </label>
@@ -51,9 +46,12 @@
                     </div>
 
                     <div class="input-field">
-                        <input type="submit" class="btn" value="Register Now" />
+                        <input type="submit" onclick="msg()" class="btn" value="Register Now" />
                         <script>
-                            alert('registered succesfully')
+                            function msg(){
+                            alert("registered succesfully");
+                            }
+
                         </script>
                     </div>
                 </div>
