@@ -173,15 +173,17 @@ nav ul li:hover ul.tour-dropdown {
    cursor: pointer; 
    display: flex;
    position: absolute;
-   margin-top: 290px;
+  
 }
 .left{
     padding-right: 80px;
     transform: rotate(180deg);
+    margin-top: 650px;
 }
 .right{
    
     margin-left: 1400px;
+    margin-top: -90px;
     
 }
 .frame{
