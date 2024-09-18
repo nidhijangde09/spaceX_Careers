@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms</title>
+    <link rel="stylesheet" href="../Css/register.css" />
+</head>
+
+<body>
+    <img src="../Images/register-img.webp" class="background-img">
+
+
+
+    <div class="container">
+        <div class="form-box">
+            <h1 class="top-heading">Registration Form</h1><hr class="hr-1">
+            <form>
+                <div class="input-grup">
+
+                    <div class="input-field">
+                        <label for="inputFullName" class="label-text">Enter FullName: </label>
+                        <input type="text" class="input-text" placeholder="Full Name" required />
+                    </div></br>
+
+                    <div class="input-field">
+                        <label for="inputFullName" class="label-text">Enter Phone No: </label>
+                        <input type="text" class="input-text" placeholder="phone number" required />
+                    </div></br>
+
+                    <div class="input-field">
+                        <label for="inputemail" class="label-text">Enter Email id: </label>
+                        <input type="email" class="input-text" placeholder="email id" required />
+                    </div></br>
+
+                    <div class="input-field">
+                        <label for="inputpassword" class="label-text">Enter Password: </label>
+                        <input type="password" class="input-text" placeholder="password" required />
+                    </div></br>
+
+                    <div class="input-field">
+                        <label for="inputpassword" class="label-text">Already have an account? Login</label>
+                       
+                    </div></br>
+                   
+                    
+                    <div class="input-field">
+                        <input type="submit" onclick="msg()" class="btn" value="Register Now" />
+                        <script>
+                            function msg(){
+                            alert("registered succesfully");
+                            }
+
+                        </script>
+                    </div>
+                </div>
+        </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

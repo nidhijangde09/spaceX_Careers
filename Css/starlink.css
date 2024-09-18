@@ -1,12 +1,13 @@
 @import url("https://fonts.google.com/specimen/Archivo+Black");
 
-#bg-img {
-    background-image: url("../Images/background.jpg");
+#.bg-img {
+    background-image: url("../Images/abc.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
     height: 700vh;
+    position: relative;
 }
 
 .header-img {

@@ -1,9 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Regular, Arial, Verdana, sans-serif;
-
-
+    font-family: Arial, Verdana, sans-serif;
+    box-sizing: border-box;
 
 }
 
@@ -23,8 +22,7 @@ nav {
     width: 100%;
     z-index: 10;
     height: 65px;
-    top: 8px;
-
+    margin-top: -50px;
 }
 
 nav .fa-solid {
@@ -42,10 +40,8 @@ nav .fa-solid {
 }
 
 #sideMenu {
-    margin-right: 290px;
-    margin-top: 30px;
-
-
+    margin-right: 100px;
+    margin-top: 10px;
 }
 
 nav ul li {
@@ -79,8 +75,8 @@ nav ul li a:hover::after {
 }
 
 .brand-name img {
-    height: 50px;
-    padding-left: 120px;
+    height: 200px;
+    padding-left: 20px;
 }
 
 .tour-dropdown li {
@@ -108,6 +104,7 @@ nav ul li:hover ul.tour-dropdown {
     padding-top: 290px;
     padding-left: 300px;
     font-size: 15px;
+    width: 100%;
 }
 
 .counter-wrapper {
@@ -117,6 +114,7 @@ nav ul li:hover ul.tour-dropdown {
     position: relative;
     color: #FFF;
     background-color: #000;
+    width: 100%;
     justify-content: center;
     justify-content: space-around;
 
@@ -138,16 +136,16 @@ nav ul li:hover ul.tour-dropdown {
 
 .img11 {
     background-image: url(https://assets.newatlas.com/dims4/default/c038f16/2147483647/strip/true/crop/2600x1200+0+0/resize/2600x1200!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Ffe%2F87%2Fa4b63744439ca241cf28ec5091dd%2Fstarship-capabilities-interplanetarydestinations-mars-01-2023-01-desktop-darkerv2.jpg);
+    background-position: center;
     height: 100vh;
     width: 100%;
-
+    background-size: cover;
 }
 
 .img11 h1 {
     padding-top: 350px;
     padding-bottom: 20px;
-    display: flex;
-    color: #fff;
+     color: #fff;
     padding-left: 80px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -174,9 +172,9 @@ nav ul li:hover ul.tour-dropdown {
 }
 
 .img-container {
-    display: flex;
+  
     align-items: center;
-    transform: scale(0.8);
+    gap: 50px;
     background-color: #000;
     padding-top: 0;
 
@@ -185,20 +183,23 @@ nav ul li:hover ul.tour-dropdown {
 .arrow {
     height: 40px;
     cursor: pointer;
-    display: flex;
+  
     position: absolute;
     margin-top: 290px;
+
 }
 
 .left {
     padding-right: 80px;
     transform: rotate(180deg);
+    margin-top: 650px;
 }
 
 .right {
 
     margin-left: 1400px;
-
+    margin-top: -90px;
+    
 }
 
 .frame {
@@ -206,7 +207,7 @@ nav ul li:hover ul.tour-dropdown {
 }
 
 .img {
-    width: 1500px;
+    width: 1550px;
     background-size: cover;
     float: right;
     height: 100vh;
@@ -270,7 +271,7 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show2 h5 {
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 220px;
 }
 
@@ -287,7 +288,7 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show2 p {
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 360px;
 }
 
@@ -300,7 +301,7 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show3 h5 {
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 220px;
 }
 
@@ -317,8 +318,8 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show3 p {
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
-    margin-top: 360px;
+    margin-left: 110px;
+    margin-top: 320px;
 }
 
 .slide-show4 {
@@ -330,7 +331,7 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show4 h5 {
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 220px;
 }
 
@@ -347,7 +348,8 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show4 p {
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
+    margin-top: 320px;
     margin-top: 360px;
 }
 
@@ -360,7 +362,7 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show5 h5 {
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 220px;
 }
 
@@ -377,8 +379,8 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show5 p {
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
-    margin-top: 360px;
+    margin-left: 110px;
+    margin-top: 320px;
 }
 
 .slide-show6 {
@@ -390,7 +392,7 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show6 h5 {
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 220px;
 }
 
@@ -407,8 +409,8 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show6 p {
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
-    margin-top: 360px;
+    margin-left: 110px;
+    margin-top: 320px;
 }
 
 .slide-show7 {
@@ -420,7 +422,7 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show7 h5 {
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 220px;
 }
 
@@ -437,8 +439,8 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show7 p {
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
-    margin-top: 360px;
+    margin-left: 110px;
+    margin-top: 340px;
 }
 
 .slide-show8 {
@@ -450,14 +452,14 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show8 h5 {
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 220px;
 }
 
 .slide-show8 h1 {
     position: absolute;
     color: #FFF;
-    padding: 25px;
+    padding: 30px;
     margin-left: 70px;
     margin-top: 270px;
     font-size: 45px;
@@ -467,17 +469,15 @@ nav ul li:hover ul.tour-dropdown {
 .slide-show8 p {
     position: absolute;
     color: #FFF;
-    margin-left: 70px;
-    margin-top: 380px;
+    margin-left: 110px;
+    margin-top: 400px;
 }
 
 .text-container {
     background-color: #000;
-    display: flex;
+   display: flex;
     height: 900px;
     width: 100%;
-
-
 }
 
 .video {
@@ -552,6 +552,7 @@ nav ul li:hover ul.tour-dropdown {
 
 .small-heading {
     background-color: #000;
+   width: 100%;
 }
 
 .small-heading h1 {
@@ -564,6 +565,7 @@ nav ul li:hover ul.tour-dropdown {
 .cards {
     background-color: #000;
     color: #FFF;
+    width: 100%;
 
 }
 
@@ -660,6 +662,7 @@ nav ul li:hover ul.tour-dropdown {
 
 .para {
     background-color: #000;
+    width: 100%;
 
 }
 
@@ -677,6 +680,7 @@ nav ul li:hover ul.tour-dropdown {
 
 .line {
     background-color: #000;
+    width: 100%;
 
 }
 
