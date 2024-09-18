@@ -76,15 +76,18 @@
     position: absolute;
   }
   
-  .btn-1 {
+  .input-field .btn-1{
     background-color: rgb(20, 48, 60);
     color: white;
     
-    border-radius: 0px;
+    border-radius: 5px;
     margin-top: 15px;
     cursor: pointer;
     border-color: floralwhite;
+    margin-left: 140px;
+    padding: 6px 40px;
   }
+
   
   .text-1 {
     font-size: 18px;
