@@ -149,4 +149,7 @@
     height: 3px;
     background-color:  rgb(20, 48, 60);
   }
-  
+  .label-text2{
+    color: azure;
+    margin-bottom: 30px;
+  }
