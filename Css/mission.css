@@ -10,9 +10,7 @@
     background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/11/Earth-From-Space-HD-Backgrounds.jpg);
     height: 100vh;
     width: 100%;
-
 }
-
 nav {
     position: absolute;
     display: flex;
@@ -24,32 +22,26 @@ nav {
     height: 65px;
     margin-top: -50px;
 }
-
 nav .fa-solid {
     display: none;
 }
-
 .fa-solid {
     color: #000;
 }
-
 .brand-name {
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
 }
-
 #sideMenu {
     margin-right: 100px;
     margin-top: 10px;
 }
-
 nav ul li {
     display: inline-block;
     list-style: none;
     margin: 1px 20px;
 }
-
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
@@ -58,7 +50,6 @@ nav ul li a {
     position: relative;
     font-family: "Roboto", sans-serif;
 }
-
 nav ul li a::after {
     content: '';
     width: 0;
@@ -69,23 +60,19 @@ nav ul li a::after {
     bottom: -6px;
     transition: 0.4s;
 }
-
 nav ul li a:hover::after {
     width: 100%;
 }
-
 .brand-name img {
     height: 200px;
     padding-left: 20px;
 }
-
 .tour-dropdown li {
     display: inline-block;
     list-style: none;
     margin: 10px 0;
     font-size: 18px;
 }
-
 .tour-dropdown {
     width: 7%;
     background: #c9c6c6;
@@ -94,11 +81,9 @@ nav ul li a:hover::after {
     border-radius: 5px;
     padding: 10px 40px;
 }
-
 nav ul li:hover ul.tour-dropdown {
     display: block;
 }
-
 .header p {
     color: #fff;
     padding-top: 290px;
@@ -106,7 +91,6 @@ nav ul li:hover ul.tour-dropdown {
     font-size: 15px;
     width: 100%;
 }
-
 .counter-wrapper {
     display: flex;
     grid-template-columns: repeat(3, 1fr);
@@ -117,23 +101,17 @@ nav ul li:hover ul.tour-dropdown {
     width: 100%;
     justify-content: center;
     justify-content: space-around;
-
 }
-
 .counter {
     text-align: center;
     position: relative;
 }
-
 .counter .count {
     font-size: 100px;
 }
-
 .counter p {
     font-size: 20px;
-
 }
-
 .img11 {
     background-image: url(https://assets.newatlas.com/dims4/default/c038f16/2147483647/strip/true/crop/2600x1200+0+0/resize/2600x1200!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Ffe%2F87%2Fa4b63744439ca241cf28ec5091dd%2Fstarship-capabilities-interplanetarydestinations-mars-01-2023-01-desktop-darkerv2.jpg);
     background-position: center;
@@ -141,7 +119,6 @@ nav ul li:hover ul.tour-dropdown {
     width: 100%;
     background-size: cover;
 }
-
 .img11 h1 {
     padding-top: 350px;
     padding-bottom: 20px;
@@ -149,14 +126,12 @@ nav ul li:hover ul.tour-dropdown {
     padding-left: 80px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .img11 p {
     color: #fff;
     padding-left: 80px;
     padding-bottom: 50px;
     font-family: D-DIN-Regular;
 }
-
 .img11 a {
     text-decoration: none;
     color: #fff;
@@ -168,56 +143,42 @@ nav ul li:hover ul.tour-dropdown {
     margin-top: 15px;
     font-family: Arial, sans-serif;
     margin-left: 70px;
-
 }
-
-.img-container {
-  
+.img-container { 
     align-items: center;
     gap: 50px;
     background-color: #000;
     padding-top: 0;
 
 }
-
 .arrow {
     height: 40px;
     cursor: pointer;
   
     position: absolute;
     margin-top: 290px;
-
 }
-
 .left {
     padding-right: 80px;
     transform: rotate(180deg);
     margin-top: 650px;
 }
-
 .right {
-
     margin-left: 1400px;
     margin-top: -90px;
-    
 }
-
 .frame {
     overflow: hidden;
 }
-
 .img {
     width: 1550px;
     background-size: cover;
     float: right;
     height: 100vh;
-
 }
-
 .slider {
     display: flex;
 }
-
 .slide-show h1 {
     position: absolute;
     color: #fff;
@@ -225,27 +186,22 @@ nav ul li:hover ul.tour-dropdown {
     margin-top: 250px;
     padding: 50px;
 }
-
 .slide-show p {
     position: absolute;
     color: #fff;
     margin-left: 100px;
     margin-top: 350px;
-
 }
-
 .slide-show1 {
     position: relative;
     display: flex;
 }
-
 .slide-show1 h5 {
     position: absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 220px;
 }
-
 .slide-show1 h1 {
     position: absolute;
     color: #FFF;
@@ -254,27 +210,22 @@ nav ul li:hover ul.tour-dropdown {
     font-size: 45px;
     margin-top: 200px;
 }
-
 .slide-show1 p {
     position: absolute;
     color: #FFF;
     margin-left: 70px;
     margin-top: 360px;
 }
-
 .slide-show2 {
     position: relative;
     display: flex;
-
 }
-
 .slide-show2 h5 {
     position: absolute;
     color: #FFF;
     margin-left: 110px;
     margin-top: 220px;
 }
-
 .slide-show2 h1 {
     position: absolute;
     color: #FFF;
@@ -284,27 +235,22 @@ nav ul li:hover ul.tour-dropdown {
     font-size: 45px;
     margin-top: 200px;
 }
-
 .slide-show2 p {
     position: absolute;
     color: #FFF;
     margin-left: 110px;
     margin-top: 360px;
 }
-
 .slide-show3 {
     position: relative;
     display: flex;
-
 }
-
 .slide-show3 h5 {
     position: absolute;
     color: #FFF;
     margin-left: 110px;
     margin-top: 220px;
 }
-
 .slide-show3 h1 {
     position: absolute;
     color: #FFF;
@@ -314,27 +260,22 @@ nav ul li:hover ul.tour-dropdown {
     font-size: 45px;
     margin-top: 200px;
 }
-
 .slide-show3 p {
     position: absolute;
     color: #FFF;
     margin-left: 110px;
     margin-top: 320px;
 }
-
 .slide-show4 {
     position: relative;
     display: flex;
-
 }
-
 .slide-show4 h5 {
     position: absolute;
     color: #FFF;
     margin-left: 110px;
     margin-top: 220px;
 }
-
 .slide-show4 h1 {
     position: absolute;
     color: #FFF;
@@ -344,7 +285,6 @@ nav ul li:hover ul.tour-dropdown {
     font-size: 45px;
     margin-top: 200px;
 }
-
 .slide-show4 p {
     position: absolute;
     color: #FFF;
@@ -352,20 +292,16 @@ nav ul li:hover ul.tour-dropdown {
     margin-top: 320px;
     margin-top: 360px;
 }
-
 .slide-show5 {
     position: relative;
     display: flex;
-
 }
-
 .slide-show5 h5 {
     position: absolute;
     color: #FFF;
     margin-left: 110px;
     margin-top: 220px;
 }
-
 .slide-show5 h1 {
     position: absolute;
     color: #FFF;
@@ -375,27 +311,22 @@ nav ul li:hover ul.tour-dropdown {
     font-size: 45px;
     margin-top: 200px;
 }
-
 .slide-show5 p {
     position: absolute;
     color: #FFF;
     margin-left: 110px;
     margin-top: 320px;
 }
-
 .slide-show6 {
     position: relative;
     display: flex;
-
 }
-
 .slide-show6 h5 {
     position: absolute;
     color: #FFF;
     margin-left: 110px;
     margin-top: 220px;
 }
-
 .slide-show6 h1 {
     position: absolute;
     color: #FFF;
@@ -405,27 +336,22 @@ nav ul li:hover ul.tour-dropdown {
     font-size: 45px;
     margin-top: 200px;
 }
-
 .slide-show6 p {
     position: absolute;
     color: #FFF;
     margin-left: 110px;
     margin-top: 320px;
 }
-
 .slide-show7 {
     position: relative;
     display: flex;
-
 }
-
 .slide-show7 h5 {
     position: absolute;
     color: #FFF;
     margin-left: 110px;
     margin-top: 220px;
 }
-
 .slide-show7 h1 {
     position: absolute;
     color: #FFF;
@@ -438,7 +364,7 @@ nav ul li:hover ul.tour-dropdown {
 
 .slide-show7 p {
     position: absolute;
-    color: #FFF;
+   color: #FFF;
     margin-left: 110px;
     margin-top: 340px;
 }
