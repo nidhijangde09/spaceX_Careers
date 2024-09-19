@@ -10,6 +10,7 @@
     background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/11/Earth-From-Space-HD-Backgrounds.jpg);
     height: 100vh;
     width: 100%;
+    background-position: center;
 
 }
 
@@ -139,13 +140,13 @@ nav ul li:hover ul.tour-dropdown {
     background-position: center;
     height: 100vh;
     width: 100%;
-    background-size: cover;
+
 }
 
 .img11 h1 {
     padding-top: 350px;
     padding-bottom: 20px;
-     color: #fff;
+    color: #fff;
     padding-left: 80px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -167,12 +168,12 @@ nav ul li:hover ul.tour-dropdown {
     padding: 10px 30px;
     margin-top: 15px;
     font-family: Arial, sans-serif;
-    margin-left: 70px;
+    margin-left: 80px;
 
 }
 
 .img-container {
-  
+
     align-items: center;
     gap: 50px;
     background-color: #000;
@@ -183,7 +184,7 @@ nav ul li:hover ul.tour-dropdown {
 .arrow {
     height: 40px;
     cursor: pointer;
-  
+
     position: absolute;
     margin-top: 290px;
 
@@ -199,7 +200,7 @@ nav ul li:hover ul.tour-dropdown {
 
     margin-left: 1400px;
     margin-top: -90px;
-    
+
 }
 
 .frame {
@@ -207,11 +208,9 @@ nav ul li:hover ul.tour-dropdown {
 }
 
 .img {
-    width: 1550px;
-    background-size: cover;
+    width: 100%;
     float: right;
     height: 100vh;
-
 }
 
 .slider {
@@ -321,167 +320,15 @@ nav ul li:hover ul.tour-dropdown {
     margin-left: 110px;
     margin-top: 320px;
 }
-
-.slide-show4 {
-    position: relative;
-    display: flex;
-
-}
-
-.slide-show4 h5 {
-    position: absolute;
-    color: #FFF;
-    margin-left: 110px;
-    margin-top: 220px;
-}
-
-.slide-show4 h1 {
-    position: absolute;
-    color: #FFF;
-    margin-left: 70px;
-    padding: 35px;
-    margin-top: 270px;
-    font-size: 45px;
-    margin-top: 200px;
-}
-
-.slide-show4 p {
-    position: absolute;
-    color: #FFF;
-    margin-left: 110px;
-    margin-top: 320px;
-    margin-top: 360px;
-}
-
-.slide-show5 {
-    position: relative;
-    display: flex;
-
-}
-
-.slide-show5 h5 {
-    position: absolute;
-    color: #FFF;
-    margin-left: 110px;
-    margin-top: 220px;
-}
-
-.slide-show5 h1 {
-    position: absolute;
-    color: #FFF;
-    padding: 35px;
-    margin-left: 70px;
-    margin-top: 270px;
-    font-size: 45px;
-    margin-top: 200px;
-}
-
-.slide-show5 p {
-    position: absolute;
-    color: #FFF;
-    margin-left: 110px;
-    margin-top: 320px;
-}
-
-.slide-show6 {
-    position: relative;
-    display: flex;
-
-}
-
-.slide-show6 h5 {
-    position: absolute;
-    color: #FFF;
-    margin-left: 110px;
-    margin-top: 220px;
-}
-
-.slide-show6 h1 {
-    position: absolute;
-    color: #FFF;
-    padding: 35px;
-    margin-left: 70px;
-    margin-top: 270px;
-    font-size: 45px;
-    margin-top: 200px;
-}
-
-.slide-show6 p {
-    position: absolute;
-    color: #FFF;
-    margin-left: 110px;
-    margin-top: 320px;
-}
-
-.slide-show7 {
-    position: relative;
-    display: flex;
-
-}
-
-.slide-show7 h5 {
-    position: absolute;
-    color: #FFF;
-    margin-left: 110px;
-    margin-top: 220px;
-}
-
-.slide-show7 h1 {
-    position: absolute;
-    color: #FFF;
-    padding: 35px;
-    margin-left: 70px;
-    margin-top: 270px;
-    font-size: 45px;
-    margin-top: 200px;
-}
-
-.slide-show7 p {
-    position: absolute;
-    color: #FFF;
-    margin-left: 110px;
-    margin-top: 340px;
-}
-
-.slide-show8 {
-    position: relative;
-    display: flex;
-
-}
-
-.slide-show8 h5 {
-    position: absolute;
-    color: #FFF;
-    margin-left: 110px;
-    margin-top: 220px;
-}
-
-.slide-show8 h1 {
-    position: absolute;
-    color: #FFF;
-    padding: 30px;
-    margin-left: 70px;
-    margin-top: 270px;
-    font-size: 45px;
-    margin-top: 200px;
-}
-
-.slide-show8 p {
-    position: absolute;
-    color: #FFF;
-    margin-left: 110px;
-    margin-top: 400px;
-}
-
 .text-container {
     background-color: #000;
-   display: flex;
-    height: 900px;
+    display: flex;
+    height: 100vh;
     width: 100%;
 }
 
 .video {
-    height: 750px;
+    height: 75vh;
     width: 900px;
     margin-left: 30px;
     margin-top: 80px;
@@ -508,7 +355,7 @@ nav ul li:hover ul.tour-dropdown {
     color: #fff;
     text-align: center;
     height: 250px;
-    padding-top: 90px;
+
 }
 
 .new-container h1 {
@@ -552,7 +399,7 @@ nav ul li:hover ul.tour-dropdown {
 
 .small-heading {
     background-color: #000;
-   width: 100%;
+    width: 100%;
 }
 
 .small-heading h1 {
@@ -563,11 +410,14 @@ nav ul li:hover ul.tour-dropdown {
 }
 
 .cards {
-    background-color: #000;
+    background-color: #000000;
     color: #FFF;
     width: 100%;
-
+    padding-left: 230px;
+    padding-right: 230px;
+    
 }
+
 
 .flexbox {
     display: flex;
@@ -578,10 +428,9 @@ nav ul li:hover ul.tour-dropdown {
     color: #fff;
     background-color: #000;
     height: 650px;
-    width: 600px;
-    margin-left: 120px;
-    float: left;
-    margin-right: 90px;
+    width: 500px;
+   padding-right: 50px;
+
 }
 
 .card1 h4 {
@@ -598,10 +447,9 @@ nav ul li:hover ul.tour-dropdown {
     color: #fff;
     background-color: #000;
     height: 650px;
-    width: 600px;
-    margin-right: 120px;
-    margin-left: 10px;
-    float: right;
+    width: 500px;
+    float: left;
+    padding-left: 50px;
 
 }
 
@@ -617,12 +465,12 @@ nav ul li:hover ul.tour-dropdown {
 
 .pic1 {
     height: 350px;
-    width: 600px;
+    width: 500px;
 }
 
 .pic2 {
     height: 350px;
-    width: 600px;
+    width: 500px;
 }
 
 .info {
