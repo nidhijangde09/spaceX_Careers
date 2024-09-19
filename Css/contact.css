@@ -2,6 +2,91 @@ body {
     margin: 0px;
     padding: 0px;
 }
+nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 10;
+    height: 65px;
+    margin-top: -50px;
+}
+
+nav .fa-solid {
+    display: none;
+}
+
+.fa-solid {
+    color: #000;
+}
+
+.brand-name {
+    width: -5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#sideMenu {
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 1px 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 1px;
+    background: #f2b75e;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.4s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.brand-name img {
+    height: 200px;
+    padding-left: 20px;
+}
+
+.tour-dropdown li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.tour-dropdown {
+    width: 7%;
+    background: #c9c6c6;
+    position: absolute;
+    display: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+nav ul li:hover ul.tour-dropdown {
+    display: block;
+}
 
 .bg-img-1 {
     background-image: url("../Images/beautiful-constellations-planet.jpg");
