@@ -3,9 +3,12 @@
 <head>
     <title>Forms</title>
     <link rel="stylesheet" href="../Css/login.css" />
+    <link rel="stylesheet" href="../Css/index.css" />
 </head>
 
 <body>
+
+        
     <img src="../Images/register-img.webp" class="background-img">
 
 
@@ -34,15 +37,12 @@
                     </div></br>
 
                     <div class="input-field">
-                        <label for="inputpassword" class="label-text">Don't have an account? Register Now </label>
+                        <label for="inputpassword" class="label-text">Don't have an account?<a href="../Html/register.html" >Register Now </a></label>
                        
-                        
-
-                        
                     </div>
 
                     <div class="input-field">
-                        <input type="submit" onclick="msg()" class="btn" value="Login Now" />
+                        <button type="submit" onclick="msg()" class="btn-1" > Login Now</button>
                         <script>
                             function msg(){
                             alert("Login succesfully");
@@ -54,6 +54,8 @@
         </div>
         </form>
     </div>
+
+    
 
 </body>
 

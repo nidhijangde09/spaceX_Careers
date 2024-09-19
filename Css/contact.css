@@ -2,10 +2,94 @@ body {
     margin: 0px;
     padding: 0px;
 }
+nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 10;
+    height: 65px;
+    margin-top: -50px;
+}
+
+nav .fa-solid {
+    display: none;
+}
+
+.fa-solid {
+    color: #000;
+}
+
+.brand-name {
+    width: -5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#sideMenu {
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 1px 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 1px;
+    background: #f2b75e;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.4s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.brand-name img {
+    height: 200px;
+    padding-left: 20px;
+}
+
+.tour-dropdown li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.tour-dropdown {
+    width: 7%;
+    background: #c9c6c6;
+    position: absolute;
+    display: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+nav ul li:hover ul.tour-dropdown {
+    display: block;
+}
 
 .bg-img-1 {
-    background-image: url("../Images/contact-img1.jpg");
-    background-position: center;
+    background-image: url("../Images/beautiful-constellations-planet.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -32,15 +116,15 @@ body {
 
 .contact-form {
     margin-top: 50px;
-    padding: 30px 400px;
-    margin-left: -230px;
+    padding: 30px;
+    margin-left: 150px;
 }
 
 
 .text-field1 {
     width: 30%;
     background-color: white;
-    padding: 20px 120px;
+    padding: 20px 50px;
 
 
 }
@@ -48,7 +132,7 @@ body {
 .text-field2 {
     width: 30%;
     background-color: white;
-    padding: 20px 120px;
+    padding: 20px 50px;
     margin-top: 20px;
 
 }
@@ -56,14 +140,15 @@ body {
 .text-field3 {
     width: 30%;
     background-color: white;
-    padding: 20px 120px;
+    padding: 20px 50px;
     margin-top: 22px;
 }
 
 .contact-form-1 {
-    float: right;
-    margin-top: -250px;
-    margin-right: 160px;
+   float: right; 
+   margin-top: -250px;
+   margin-right: 170px;
+
 }
 
 .text-field4 {
@@ -76,7 +161,9 @@ body {
 .btn-10 {
     margin-top: 20px;
     color: white;
-    margin-left: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     padding: 15px 70px;
     background-color: rgba(32, 61, 100, 0.516);
 }

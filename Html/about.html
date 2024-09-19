@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About us</title>
+  <title>About Us</title>
   <link rel="stylesheet" href="../Css/about.css" />
   <link rel="stylesheet" href="../Css/index.css" />
 
@@ -12,19 +12,22 @@
 
 <body>
   <nav>
+    
     <div class="brand-name">
-      <img src="../Images/spacex-logo.png" />
+      <a href="../index.html">
+      <img src="../Images/rocketlogo.png" />
+      </a>
     </div>
     <ul id="sideMenu1">
-      <li><a href="./index.html">Home</a></li>
-      <li><a href="./Html/mission.html">Mission</a></li>
-      <li><a href="./Html/launches.html">launches</a></li>
-      <li><a href="./Html/careers.html">Careers</a></li>
-      <li><a href="./Html/updates.html">Updates</a></li>
-      <li><a href="./Html/about.html">About</a></li>
-      <li><a href="./Html/contact.html">Contact us</a></li>
-      <li><a href="./Html/login.html">login/Register</a></li>
-      <li><a href="./Html/starlink.html">Starlink</a></li>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../Html/mission.html">Mission</a></li>
+      <li><a href="../Html/launches.html">launches</a></li>
+      <li><a href="../Html/careers.html">Careers</a></li>
+      <li><a href="../Html/updates.html">Updates</a></li>
+      <li><a href="../Html/about.html">About</a></li>
+      <li><a href="../Html/contact.html">Contact us</a></li>
+      <li><a href="../Html/login.html">login/Register</a></li>
+      <li><a href="../Html/starlink.html">Starlink</a></li>
       <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
     </ul>
     <i class="fa-solid fa-bars" onclick="openMenu()"></i>
@@ -34,7 +37,6 @@
     <img src="../Images/about-us-cover.jpg" class="img1" />
   </div>
   <div class="content">
-<<<<<<< HEAD
     <h2>AT<br> SPACEX</h2>
     <p>As Earth to Space transportation remains expensive, access to Space has been limited to very few<br>
        governments and enterprises. Yet Space has transformed our lives for decades through GPS, Satellite<br> 
@@ -44,25 +46,17 @@
       At SpaceX, we are on a mission to open Space for all, by pushing the boundaries of today's technology.<br> 
       We are working towards a future where Space becomes part of our lives, and such a transition will<br> 
       transform humankind like never before. </p>
-=======
-    <h2>AT<br><br> SPACELINK</h2>
-    <p>As Earth to Space transportation remains expensive, access to Space has been limited to very few<br> governments
-      and enterprises. Yet Space has transformed our lives for decades through GPS, Satellite<br> internet and
-      television, weather prediction, disaster response, understanding the universe, and many <br>others.<br>
-      <br>
-      At Spacelink, we are on a mission to open Space for all, by pushing the boundaries of today's technology.<br> We
-      are working towards a future where Space becomes part of our lives, and such a transition will<br> transform
-      humankind like never before.
-    </p>
->>>>>>> 26f23679aa9f10ce3904c700be52fadaec8d1703
+
+    
+
   </div>
 
   <div class="small-heading">
     <h1>LEADERSHIP AND
       CORE TEAM</h1>
   </div>
-  <div class="cards">
-    <div class="inner-container">
+  <div class="container-1">
+  <div class="leadership-card-container">
       <div class="flexbox">
         <div class="card1">
           <img src="../Images/profile.png" class="pic1" />
@@ -126,8 +120,7 @@
         </div>
       </div>
     </div>
-  </div>
-  </div>
+ </div>
 
 <div class="block">
 <div class="block1">
@@ -184,6 +177,32 @@
   </div>
 </div>
 </div>
+<script>
+  const counts = document.querySelectorAll('.count')
+const speed = 97
+counts.forEach((counter) =>{
+    function upDate(){
+        const target = Number(counter.getAttribute('data-target'))
+        const count = Number(counter.innerText)
+        const inc = target / speed
+        if(count < target){
+            counter.innerText = Math.floor(inc + count)
+            setTimeout( upDate, 1)
+        }else{
+            counter.innerText = target
+        }
+    }
+    upData()
+})
+
+const left = document.querySelector('.left');
+const right = document.querySelector('.right');
+const slider = document.querySelector('.slider');
+
+left.addEventListener('click',()=>{
+    console.log('Hello');
+})
+</script>
 </body>
 
 </html>
