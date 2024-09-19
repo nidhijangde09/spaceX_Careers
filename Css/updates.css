@@ -143,3 +143,22 @@ font-size: 100px;
     color: whitesmoke;
     margin-left: 200px;
 }
+.video2{
+    position:absolute;
+    right: 10;
+    left: 200px;
+    align-items: center;
+    z-index: -1;
+    min-width: 125%;
+    height: 70vh;
+    background-position: 0%;
+  margin-top: 60px;
+}
+.text-8{
+    color: rgb(250, 255, 255);
+    font-size: xx-large;
+}
+.text-9{
+    color:whitesmoke;
+    padding-top: -50px;
+}
