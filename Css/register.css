@@ -13,8 +13,8 @@
   }
   .container {
     width: 35%;
-    height: 78vh;
-    background-color: rgba(255, 255, 255, 0.125);
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.393);
     position: absolute;
     margin-top: -550px;
     margin-left: 35%;
@@ -43,6 +43,7 @@
   }
   .label-text{
     font-size: 18px;
+    color: #000;
     font-family: "Prompt", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     margin-left: 30px;
   }
@@ -79,12 +80,13 @@
   .input-field .btn-1{
     background-color: rgb(20, 48, 60);
     color: white;
-    
     border-radius: 5px;
     margin-top: 15px;
     cursor: pointer;
     border-color: floralwhite;
-    margin-left: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     padding: 6px 40px;
   }
 
