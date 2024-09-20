@@ -1,113 +1,131 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: black;
 
 }
 
-.main-img{
+.main-img {
     width: 100%;
     height: 100vh;
-    
+
 }
 
 
-.v-heading{
+.v-heading {
     float: left;
     margin-top: -320px;
-    font-size:40px;
+    font-size: 40px;
     color: white;
 }
-.v-detail{
+
+.v-detail {
     float: right;
     margin-top: -320px;
     color: white;
 }
-.text-container{
+
+.text-container {
     margin-top: 400px;
     padding: 0px 230px;
 }
-.img-3{
+
+.img-3 {
     float: right;
 }
-.card{
+
+.card {
     display: flex;
     width: 100px;
     height: 800px;
-   margin-left: -100px;
-   
-   
+    margin-left: -50px;
+
+
 }
-.info-block{
+
+.info-block {
     background-color: aqua;
 }
-.c-img{
-   
-    
-   
+
+.c-img {
+
+
+
     padding-top: 9px;
     padding-bottom: 9px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    background-color:#3c3c3c;
+    background-color: #3c3c3c;
 }
-.c-img1{
-  
+
+.c-img1 {
+
     padding-top: 9px;
     padding-bottom: 9px;
-    background-color:#3c3c3c;
+    background-color: #3c3c3c;
 }
-.c-img2{
+
+.c-img2 {
 
     padding-top: 9px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     padding-bottom: 9px;
-    background-color:#3c3c3c;
+    background-color: #3c3c3c;
 }
-.info-title{
+
+.info-title {
     color: aliceblue;
-   
+
 }
-.info-details{
+
+.info-details {
     color: aliceblue;
-  
+
 }
-.img-container{
-    margin-bottom:  50px;
+
+.img-container {
+    margin-bottom: 50px;
     padding-left: 270px;
     background: linear-gradient(5deg, #0a0a0a, transparent);
 }
-.c-hr{
+
+.c-hr {
     margin-left: 190px;
     margin-right: 180px;
-    
+
 }
-.info-h{
+
+.info-h {
     margin-left: 200px;
 
 }
-.info-details{
-    display:flex;
+
+.info-details {
+    display: flex;
     font-size: 15px;
 }
-.i-d1{
+
+.i-d1 {
     margin-left: 200px;
 }
-.i-d4{
+
+.i-d4 {
     margin-left: 200px;
     font-size: 17px;
 }
-.i-d3{
+
+.i-d3 {
     margin-left: -70px;
-   padding: 0px 50px;
-   font-size: 17px;
+    padding: 0px 50px;
+    font-size: 17px;
 }
-.i-d2{
+
+.i-d2 {
     padding: 0px 130px;
 
 }
 
-.info-block{
+.info-block {
     background: linear-gradient(5deg, #172135, transparent);
 }
