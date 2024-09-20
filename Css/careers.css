@@ -285,12 +285,12 @@ padding-top: 20px;
     padding-bottom: 40px;
 }
 #line2{
-    align-items: center;
-    margin-left: 720px;
     height: 30px;
-    
+   padding: 0px 640px;
 }
-
+.buttons{
+  margin-left: -100px;
+}
 .buttons a{
     text-decoration: none;
     color: #fff;
