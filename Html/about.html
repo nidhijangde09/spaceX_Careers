@@ -13,7 +13,7 @@
 <body>
   <nav>
     <div class="brand-name">
-      <img src="../Images/spacex-logo.png" />
+      <img src="../Images/rocketlogo.png" />
     </div>
     <ul id="sideMenu1">
       <li><a href="../index.html">Home</a></li>
@@ -31,7 +31,7 @@
   </nav>
 
   <div class="image">
-    <img src="../Images/about-us-cover.jpg" class="img1" />
+    <img src="../Images/company3.jpg" class="img1" />
   </div>
   <div class="content">
     <h2>AT<br> SpaceLync</h2>
@@ -172,38 +172,38 @@
       <img class="footer-icon" src="../Images/instagram.png">
     </div>
 
-    <div class="footer-content2">
-      <p>Copyright @ 2022 SpaceLync. All Rights<br>
-        Reserved.</p>
-    </div>
+  <div class="footer-content2">
+    <p>Copyright @ 2022 SpaceLink Aerospace. All Rights<br>
+      Reserved.</p>
   </div>
-  </div>
-  <script>
-    const counts = document.querySelectorAll('.count')
-    const speed = 97
-    counts.forEach((counter) => {
-      function upDate() {
+</div>
+</div>
+<script>
+  const counts = document.querySelectorAll('.count')
+const speed = 97
+counts.forEach((counter) =>{
+    function upDate(){
         const target = Number(counter.getAttribute('data-target'))
         const count = Number(counter.innerText)
         const inc = target / speed
-        if (count < target) {
-          counter.innerText = Math.floor(inc + count)
-          setTimeout(upDate, 1)
-        } else {
-          counter.innerText = target
+        if(count < target){
+            counter.innerText = Math.floor(inc + count)
+            setTimeout( upDate, 1)
+        }else{
+            counter.innerText = target
         }
-      }
-      upData()
-    })
+    }
+    upData()
+})
 
-    const left = document.querySelector('.left');
-    const right = document.querySelector('.right');
-    const slider = document.querySelector('.slider');
+const left = document.querySelector('.left');
+const right = document.querySelector('.right');
+const slider = document.querySelector('.slider');
 
-    left.addEventListener('click', () => {
-      console.log('Hello');
-    })
-  </script>
+left.addEventListener('click',()=>{
+    console.log('Hello');
+})
+</script>
 </body>
 
 </html>
