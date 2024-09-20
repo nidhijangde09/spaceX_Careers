@@ -259,13 +259,13 @@ nav ul li:hover ul.tour-dropdown {
 .footer-icon-container {
     position: relative;
     float: right;
-    margin-top: -50px;
+    margin-top: -40px;
     margin-right: 640px;
 }
 
 .footer-content2 {
     color: #ffffff;
     float: right;
-    margin-top: -70px;
+    margin-top: -50px;
     margin-right: 50px;
 }
