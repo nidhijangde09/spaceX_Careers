@@ -34,17 +34,18 @@
     <img src="../Images/about-us-cover.jpg" class="img1" />
   </div>
   <div class="content">
-    <h2>AT<br> SPACEX</h2>
+    <h2>AT<br> SpaceLync</h2>
     <p>As Earth to Space transportation remains expensive, access to Space has been limited to very few<br>
-       governments and enterprises. Yet Space has transformed our lives for decades through GPS, Satellite<br> 
-       internet and television, weather prediction, disaster response, understanding the universe, and many <br>
-       others.<br>
+      governments and enterprises. Yet Space has transformed our lives for decades through GPS, Satellite<br>
+      internet and television, weather prediction, disaster response, understanding the universe, and many <br>
+      others.<br>
       <br>
-      At SpaceX, we are on a mission to open Space for all, by pushing the boundaries of today's technology.<br> 
-      We are working towards a future where Space becomes part of our lives, and such a transition will<br> 
-      transform humankind like never before. </p>
+      At SpaceLync, we are on a mission to open Space for all, by pushing the boundaries of today's technology.<br>
+      We are working towards a future where Space becomes part of our lives, and such a transition will<br>
+      transform humankind like never before.
+    </p>
 
-    
+
 
   </div>
 
@@ -53,7 +54,7 @@
       CORE TEAM</h1>
   </div>
   <div class="container-1">
-  <div class="leadership-card-container">
+    <div class="leadership-card-container">
       <div class="flexbox">
         <div class="card1">
           <img src="../Images/profile.png" class="pic1" />
@@ -117,91 +118,92 @@
         </div>
       </div>
     </div>
- </div>
-
-<div class="block">
-<div class="block1">
-  <h1>INVESTOR</h1>
-  <div>
-    <img  src="../Images/500.png"/>
-    <img  src="../Images/501.png"/>
-    <img  src="../Images/503.png"/>
-    <img  src="../Images/aum1.png"/>
-  </div>
-</div>
-</div>
-
-<div class="footer-container">
-  <div class="footer-logo">
-    <img src="../Images/spacex-logo.png"/>
   </div>
 
-
-  <form class="footer-mail-form">
-    <label class="label" for="email">Stay in our orbit</label>
-    <input type="email" class="email-field" placeholder="enter your email id" required />
-    <button class="btn">Submit</button>
-    <hr>
-  </form>
-  <div class="footer-content">
-    <h1 class="footer-heading">Company</h1>
-    <p><a class="footer-text" href="../Html/about.html">About</a></p>
-    <p><a class="footer-text" href="../Html/careers.html">Careers</a></p>
+  <div class="block">
+    <div class="block1">
+      <h1>INVESTOR</h1>
+      <div>
+        <img src="../Images/500.png" />
+        <img src="../Images/501.png" />
+        <img src="../Images/503.png" />
+        <img src="../Images/aum1.png" />
+      </div>
+    </div>
   </div>
 
-  <div class="footer-content-1">
-    <h1 class="footer-heading-1">Resources</h1>
-    <p><a class="footer-text-1" href="../Html/launches.html">Launch services</a>
-    <p>
-    <p><a class="footer-text-1" href="../Html/updates.html">Updates</a>
-    <p></p>
-  </div>
+  <div class="footer-container">
 
-  <div class="footer-id-container">
-    <hr>
-    <p class="footer-id">info@spacelink.in</p>
-  </div>
+    <div class="footer-logo">
+      <img class="footer-logo-1" src="../Images/rocketlogo.png">
+    </div>
 
-  <div class="footer-icon-container">
-    <img class="footer-icon" src="../Images/facebook .png">
-    <img class="footer-icon" src="../Images/twitter.png">
-    <img class="footer-icon" src="../Images/youtube.png">
-    <img class="footer-icon" src="../Images/linkedin.png">
-    <img class="footer-icon" src="../Images/instagram.png">
-  </div>
 
-  <div class="footer-content2">
-    <p>Copyright @ 2022 SpaceLink Aerospace. All Rights<br>
-      Reserved.</p>
+    <form class="footer-mail-form">
+      <label class="label" for="email">Stay in our orbit</label>
+      <input type="email" class="email-field" placeholder="enter your email id" required />
+      <button class="btn">Submit</button>
+      <hr>
+    </form>
+    <div class="footer-content">
+      <h1 class="footer-heading">Company</h1>
+      <p><a class="footer-text" href="../Html/about.html">About</a></p>
+      <p><a class="footer-text" href="../Html/careers.html">Careers</a></p>
+    </div>
+
+    <div class="footer-content-1">
+      <h1 class="footer-heading-1">Resources</h1>
+      <p><a class="footer-text-1" href="../Html/launches.html">Launch services</a>
+      <p>
+      <p><a class="footer-text-1" href="../Html/updates.html">Updates</a>
+      <p></p>
+    </div>
+
+    <div class="footer-id-container">
+      <hr>
+      <p class="footer-id">info@spaceLync.in</p>
+    </div>
+
+    <div class="footer-icon-container">
+      <img class="footer-icon" src="../Images/facebook .png">
+      <img class="footer-icon" src="../Images/twitter.png">
+      <img class="footer-icon" src="../Images/youtube.png">
+      <img class="footer-icon" src="../Images/linkedin.png">
+      <img class="footer-icon" src="../Images/instagram.png">
+    </div>
+
+    <div class="footer-content2">
+      <p>Copyright @ 2022 SpaceLync. All Rights<br>
+        Reserved.</p>
+    </div>
   </div>
-</div>
-</div>
-<script>
-  const counts = document.querySelectorAll('.count')
-const speed = 97
-counts.forEach((counter) =>{
-    function upDate(){
+  </div>
+  <script>
+    const counts = document.querySelectorAll('.count')
+    const speed = 97
+    counts.forEach((counter) => {
+      function upDate() {
         const target = Number(counter.getAttribute('data-target'))
         const count = Number(counter.innerText)
         const inc = target / speed
-        if(count < target){
-            counter.innerText = Math.floor(inc + count)
-            setTimeout( upDate, 1)
-        }else{
-            counter.innerText = target
+        if (count < target) {
+          counter.innerText = Math.floor(inc + count)
+          setTimeout(upDate, 1)
+        } else {
+          counter.innerText = target
         }
-    }
-    upData()
-})
+      }
+      upData()
+    })
 
-const left = document.querySelector('.left');
-const right = document.querySelector('.right');
-const slider = document.querySelector('.slider');
+    const left = document.querySelector('.left');
+    const right = document.querySelector('.right');
+    const slider = document.querySelector('.slider');
 
-left.addEventListener('click',()=>{
-    console.log('Hello');
-})
-</script>
+    left.addEventListener('click', () => {
+      console.log('Hello');
+    })
+  </script>
 </body>
 
 </html>
